@@ -17,10 +17,14 @@
   background-color: var(--spice-text);
 }
 
-/* Action bar */
+/* Top bars */
 .main-entityHeader-backgroundColor,
 .main-actionBarBackground-background {
   display: none;
+}
+
+.main-topBar-background {
+  background-color: var(--spice-main) !important;
 }
 
 /* Sidebar */
@@ -37,7 +41,8 @@
 /* Scrollbar */
 .os-theme-spotify.os-host-transition > .os-scrollbar-horizontal > .os-scrollbar-track > .os-scrollbar-handle,
 .os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle {
-  background-color: var(--decorative-base)
+  background-color: var(--decorative-base);
+  border-radius: 6px;
 }
 
 /* Home */
