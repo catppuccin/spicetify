@@ -18,7 +18,7 @@
 ## Usage
 
 1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started/installation)
-   * Note: The installation instructions for linux have you setting `/opt/spotify` and `/opt/spotify/Apps/*` permissions to `777`. This is not good practice and should be avoided. If you want, you can set the group ownership for these paths to one that your user is apart of (i.e. `users`), or you can create a new group and add your user to is as a secondary group. After that you can use the following command to give access to the group:
+   * Note: The installation instructions for linux have you setting `/opt/spotify` and `/opt/spotify/Apps/*` permissions to `777`. This is not good practice and should be avoided. If you want, you can set the group ownership for these paths to one that your user is apart of (i.e. `users`), or you can create a new group and add it as a secondary group to your user. After that you can use the following command to give access to the group:
       ```
       GROUP=<group_name>
       sudo chgrp $GROUP /opt/spotify
@@ -26,15 +26,15 @@
       sudo chmod 775 /opt/spotify
       sudo chmod 775 -R /opt/spotify/Apps
       ```
-2. Follow the [basic usage](https://spicetify.app/docs/getting-started/basic-usage) to setup spicetify
+2. Follow the [basic usage](https://spicetify.app/docs/getting-started/basic-usage) to setup Spicetify
 3. Either clone this repo `git clone https://github.com/davidbgonz/spicetify.git ~/.config/spicetify/Themes/catppuccin` or copy over the `color.ini` and `user.css` files manually to a directory named `catppuccin` in the Spicetify theme directory. This is usually located in `~/.config/spicetify/Themes`
-4. Update the following lines in `config-xpui.ini`:
-    ```
-    color_scheme            = lavender
-    current_theme           = catppuccin
-    ```
-    Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`
-5. Run `spicetify apply` if Spotify is not open or `spicetify apply` to apply the theme and restart Spotify.
+4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`
+   ```
+   spicetify config current_theme catppuccin
+   spicetify config color_scheme lavender
+   ```
+5. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
+Run `spicetify apply` if Spotify is not open or `spicetify apply` to apply the theme and restart Spotify.
 
 
 ## 💝 Thanks to
