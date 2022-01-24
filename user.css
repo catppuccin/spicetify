@@ -64,3 +64,17 @@
 .main-home-content > section:first-child > .main-gridContainer-gridContainer > div:hover {
   background-color: var(--spice-misc);
 }
+
+/* Cards */
+.main-card-card {
+  border-radius: 6px;
+}
+
+.main-card-imageContainer {
+  margin: -16px -16px 16px -16px;
+}
+
+.main-cardImage-imageWrapper,
+.main-cardImage-image {
+  border-radius: 6px 6px 0 0;
+}
