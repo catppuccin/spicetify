@@ -31,6 +31,10 @@
   background-color: var(--spice-main) !important;
 }
 
+.main-entityHeader-withBackgroundImage {
+  background-color: rgba(var(--spice-rgb-player), 0.2);
+}
+
 /* Sidebar */
 .main-navBar-navBar li:hover > div,
 .main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
