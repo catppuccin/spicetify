@@ -12,6 +12,10 @@
   background-color: var(--spice-sidebar);
 }
 
+.control-button-heart[aria-checked=true] {
+  color: var(--spice-selected-row);
+}
+
 /* Progress bar */
 .x-progressBar-progressBarBg > div > div {
   background-color: var(--spice-text);
