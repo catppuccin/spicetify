@@ -47,10 +47,24 @@
 }
 
 /* Scrollbar */
+
+.os-theme-spotify > .os-scrollbar-horizontal,
+.os-theme-spotify > .os-scrollbar-vertical {
+  padding: 4px;
+}
+
 .os-theme-spotify.os-host-transition > .os-scrollbar-horizontal > .os-scrollbar-track > .os-scrollbar-handle,
 .os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle {
   background-color: var(--decorative-base);
   border-radius: 6px;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #575268;
+  border-radius: 4px;
 }
 
 /* Home */
