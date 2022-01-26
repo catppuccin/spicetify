@@ -12,8 +12,16 @@
   background-color: var(--spice-sidebar);
 }
 
-.control-button-heart[aria-checked=true] {
+.control-button-heart[aria-checked=true],
+.main-addButton-active,
+.main-addButton-active:focus,
+.main-addButton-active:hover {
   color: var(--spice-selected-row);
+}
+
+.main-addButton-active:hover {
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
 }
 
 /* Progress bar */
@@ -91,4 +99,11 @@
 .main-cardImage-imageWrapper,
 .main-cardImage-image {
   border-radius: 6px 6px 0 0;
+}
+
+/* Song lists */
+.main-trackList-playingIcon {
+  background-image: url("equalizer-animated-green.gif");
+  background-size: cover;
+  padding-left: 100%;
 }
