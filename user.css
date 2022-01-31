@@ -87,6 +87,11 @@
   background-color: var(--spice-misc);
 }
 
+.main-gridContainer-gridContainer > div,
+.main-gridContainer-gridContainer > div > div > div {
+  border-radius: 6px;
+}
+
 /* Cards */
 .main-card-card {
   border-radius: 6px;
@@ -102,7 +107,7 @@
 }
 
 /* Song lists */
-.main-trackList-playingIcon {
+.main-trackList-playingIcon.green {
   background-image: url("equalizer-animated-green.gif");
   background-size: cover;
   padding-left: 100%;
