@@ -11,9 +11,7 @@
     <a href="https://github.com/davidbgonz/spicetify/contributors"><img src="https://img.shields.io/github/contributors/davidbgonz/spicetify?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/sample.png"/>
-</p>
+![Spicetify Theme Preview](assets/preview.png)
 
 ## Usage
 
