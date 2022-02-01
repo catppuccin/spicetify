@@ -26,13 +26,20 @@
       ```
 2. Follow the [basic usage](https://spicetify.app/docs/getting-started/basic-usage) to setup Spicetify
 3. Either clone this repo `git clone https://github.com/davidbgonz/spicetify.git ~/.config/spicetify/Themes/catppuccin` or copy over the `color.ini` and `user.css` files manually to a directory named `catppuccin` in the Spicetify theme directory. This is usually located in `~/.config/spicetify/Themes`
+4. Copy over the catppuccin.js extension to the appropriate place.
+   ```
+   SPICE_PATH="~/.config/spicetify"
+   cp $SPICE_PATH/Themes/catppuccin/catppuccin.js $SPICE_PATH/Extensions/
+   ```
+   * Note: If there are updates to the javascipt, do not forget to recopy over `catppuccin.js`!
 4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`
    ```
    spicetify config current_theme catppuccin
    spicetify config color_scheme lavender
+   spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
+   spicetify config extensions catppuccin.js
    ```
 5. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
-Run `spicetify apply` if Spotify is not open or `spicetify apply` to apply the theme and restart Spotify.
 
 
 ## 💝 Thanks to
