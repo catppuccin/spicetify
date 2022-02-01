@@ -1,109 +1,121 @@
 /* Buttons */
 .main-playButton-PlayButton.main-playButton-primary {
-    color: var(--spice-player);
+  color: var(--spice-player);
 }
 
 .main-button-primary {
-    background-color: var(--spice-main);
+  background-color: var(--spice-main);
 }
 .main-button-primary:active,
 .main-button-primary:focus,
 .main-button-primary:hover {
-    background-color: var(--spice-sidebar);
+  background-color: var(--spice-sidebar);
 }
 
-.control-button-heart[aria-checked=true],
+.control-button-heart[aria-checked='true'],
 .main-addButton-active,
 .main-addButton-active:focus,
 .main-addButton-active:hover {
-    color: var(--spice-selected-row);
+  color: var(--spice-selected-row);
 }
 
 .main-addButton-active:hover {
-    -webkit-transform: scale(1.06);
-    transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
 }
 
 /* Progress bar */
 .x-progressBar-progressBarBg > div > div {
-    background-color: var(--spice-text);
+  background-color: var(--spice-text);
 }
 
 /* Top bars */
 .main-entityHeader-backgroundColor,
 .main-actionBarBackground-background {
-    display: none;
+  display: none;
 }
 
 .main-topBar-background {
-    background-color: var(--spice-main) !important;
+  background-color: var(--spice-main) !important;
 }
 
 .main-entityHeader-withBackgroundImage {
-    background-color: rgba(var(--spice-rgb-player), 0.2);
+  background-color: rgba(var(--spice-rgb-player), 0.2);
 }
 
 /* Sidebar */
 .main-navBar-navBar li:hover > div,
 .main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
 .spicetify-playlist-list li:hover {
-    background-color: var(--spice-main);
+  background-color: var(--spice-main);
 }
 
 #spicetify-sticky-list li:hover > div {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* Scrollbar */
 
 .os-theme-spotify > .os-scrollbar-horizontal,
 .os-theme-spotify > .os-scrollbar-vertical {
-    padding: 4px;
+  padding: 4px;
 }
 
-.os-theme-spotify.os-host-transition > .os-scrollbar-horizontal > .os-scrollbar-track > .os-scrollbar-handle,
-.os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle {
-    background-color: var(--decorative-base);
-    border-radius: 6px;
+.os-theme-spotify.os-host-transition
+  > .os-scrollbar-horizontal
+  > .os-scrollbar-track
+  > .os-scrollbar-handle,
+.os-theme-spotify.os-host-transition
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle {
+  background-color: var(--decorative-base);
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar {
-    width: 0.5em;
+  width: 0.5em;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #575268;
-    border-radius: 4px;
+  background-color: #575268;
+  border-radius: 4px;
 }
 
 /* Home */
 .main-home-homeHeader {
-    display: none;
+  display: none;
 }
 
-.main-home-content > section:first-child > .main-gridContainer-gridContainer > div {
-    background-color: var(--spice-card);
+.main-home-content
+  > section:first-child
+  > .main-gridContainer-gridContainer
+  > div {
+  background-color: var(--spice-card);
 }
-.main-home-content > section:first-child > .main-gridContainer-gridContainer > div:hover {
-    background-color: var(--spice-misc);
+.main-home-content
+  > section:first-child
+  > .main-gridContainer-gridContainer
+  > div:hover {
+  background-color: var(--spice-misc);
 }
 
 .main-gridContainer-gridContainer > div,
 .main-gridContainer-gridContainer > div > div > div {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 
 /* Cards */
 .main-card-card {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 
 .main-card-imageContainer {
-    margin: -16px -16px 16px -16px;
+  margin: -16px -16px 16px -16px;
 }
 
 .main-cardImage-imageWrapper,
 .main-cardImage-image {
-    border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
 }
 
 /* Animated equalizer */
@@ -123,49 +135,58 @@
 .catppuccin-eq-sky .main-trackList-playingIcon,
 .catppuccin-eq-lavender .main-trackList-playingIcon,
 .catppuccin-eq-white .main-trackList-playingIcon {
-    background-size: cover;
-    padding-left: 100%;
+  background-size: cover;
+  padding-left: 100%;
 }
 
 .catppuccin-eq-rosewater .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-rosewater.gif");
+  background-image: url('equalizer-animated-rosewater.gif');
 }
 .catppuccin-eq-flamingo .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-flamingo.gif");
+  background-image: url('equalizer-animated-flamingo.gif');
 }
 .catppuccin-eq-mauve .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-mauve.gif");
+  background-image: url('equalizer-animated-mauve.gif');
 }
 .catppuccin-eq-pink .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-pink.gif");
+  background-image: url('equalizer-animated-pink.gif');
 }
 .catppuccin-eq-maroon .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-maroon.gif");
+  background-image: url('equalizer-animated-maroon.gif');
 }
 .catppuccin-eq-red .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-red.gif");
+  background-image: url('equalizer-animated-red.gif');
 }
 .catppuccin-eq-peach .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-peach.gif");
+  background-image: url('equalizer-animated-peach.gif');
 }
 .catppuccin-eq-yellow .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-yellow.gif");
+  background-image: url('equalizer-animated-yellow.gif');
 }
 .catppuccin-eq-green .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-green.gif");
+  background-image: url('equalizer-animated-green.gif');
 }
 .catppuccin-eq-teal .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-teal.gif");
+  background-image: url('equalizer-animated-teal.gif');
 }
 .catppuccin-eq-blue .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-blue.gif");
+  background-image: url('equalizer-animated-blue.gif');
 }
 .catppuccin-eq-sky .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-sky.gif");
+  background-image: url('equalizer-animated-sky.gif');
 }
 .catppuccin-eq-lavender .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-lavender.gif");
+  background-image: url('equalizer-animated-lavender.gif');
 }
 .catppuccin-eq-lavender .main-trackList-playingIcon {
-    background-image: url("equalizer-animated-white.gif");
+  background-image: url('equalizer-animated-white.gif');
+}
+
+/* For that small dot on podcasts that notify us of new episodes */
+.main-home-content
+  > section:first-child
+  > .main-gridContainer-gridContainer
+  > div
+  span[aria-label] {
+  background: var(--spice-accent, var(--spice-text));
 }
