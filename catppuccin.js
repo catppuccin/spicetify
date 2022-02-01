@@ -28,12 +28,12 @@ function waitForElement(els, func, timeout = 100) {
 
 // Return the color label for a given hex color value
 function getKeyByValue(object, value) {
-  return Object.keys(object).find(key => object[key] === value);
+  return Object.keys(object).find(key => object[key] === value.trim());
 }
 
 // Used to select matching equalizer-animated-COLOR.gif
 waitForElement([".Root"], (root) => {
-  let spiceEq = getComputedStyle(document.querySelector(":root")).getPropertyValue("--spice-equalizer").trim();
+  let spiceEq = getComputedStyle(document.querySelector(":root")).getPropertyValue("--spice-equalizer");
   let eqColor = getKeyByValue(colorPalette, spiceEq);
   root[0].classList.add(`catppuccin-eq-${eqColor}`);
 });
