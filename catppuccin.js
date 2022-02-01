@@ -9,7 +9,7 @@ let colorPalette = {
     yellow: "#fae3b0",
     green: "#abe9b3",
     teal: "#b5e8e0",
-    blue: "#96cdfBb",
+    blue: "#96cdfb",
     sky: "#89dceb",
     lavender: "#c9cbff",
     white: "#d9e0ee"
