@@ -187,6 +187,8 @@
     > section:first-child
     > .main-gridContainer-gridContainer
     > div
-    span[aria-label] {
+    span[aria-label],
+span[aria-label="New episode"],
+span[aria-label="New Podcast Episode"] {
     background: var(--spice-accent, var(--spice-text));
 }
