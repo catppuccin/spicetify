@@ -184,3 +184,8 @@ input:checked~.x-toggle-indicatorWrapper {
 input:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
   background-color: var(--spice-button-active);
 }
+
+select option:checked {
+  color: var(--spice-text);
+  font-weight: bold;
+}
