@@ -1,3 +1,9 @@
+/* Color Pallette */
+:root {
+  --gray-1: #988BA2;
+  --gray-2: #C3BAC6;
+}
+
 /* Buttons */
 .main-playButton-PlayButton.main-playButton-primary {
     color: var(--spice-player);
@@ -168,4 +174,13 @@
 }
 .catppuccin-eq-lavender .main-trackList-playingIcon {
     background-image: url("equalizer-animated-white.gif");
+}
+
+/* Settings */
+input:checked~.x-toggle-indicatorWrapper {
+  background-color: var(--gray-1);
+}
+
+input:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
+  background-color: var(--spice-button-active);
 }
