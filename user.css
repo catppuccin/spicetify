@@ -41,7 +41,7 @@
     background-color: var(--spice-sidebar);
 }
 
-.control-button-heart[aria-checked=true],
+.control-button-heart[aria-checked="true"],
 .main-addButton-active,
 .main-addButton-active:focus,
 .main-addButton-active:hover {
@@ -90,8 +90,14 @@
     padding: 4px;
 }
 
-.os-theme-spotify.os-host-transition > .os-scrollbar-horizontal > .os-scrollbar-track > .os-scrollbar-handle,
-.os-theme-spotify.os-host-transition > .os-scrollbar-vertical > .os-scrollbar-track > .os-scrollbar-handle {
+.os-theme-spotify.os-host-transition
+    > .os-scrollbar-horizontal
+    > .os-scrollbar-track
+    > .os-scrollbar-handle,
+.os-theme-spotify.os-host-transition
+    > .os-scrollbar-vertical
+    > .os-scrollbar-track
+    > .os-scrollbar-handle {
     background-color: var(--decorative-base);
     border-radius: 6px;
 }
@@ -109,10 +115,16 @@
     display: none;
 }
 
-.main-home-content > section:first-child > .main-gridContainer-gridContainer > div {
+.main-home-content
+    > section:first-child
+    > .main-gridContainer-gridContainer
+    > div {
     background-color: var(--spice-card);
 }
-.main-home-content > section:first-child > .main-gridContainer-gridContainer > div:hover {
+.main-home-content
+    > section:first-child
+    > .main-gridContainer-gridContainer
+    > div:hover {
     background-color: var(--spice-misc);
 }
 
@@ -133,6 +145,20 @@
 .main-cardImage-imageWrapper,
 .main-cardImage-image {
     border-radius: 6px 6px 0 0;
+}
+
+/* Settings */
+input:checked~.x-toggle-indicatorWrapper {
+  background-color: var(--gray-1);
+}
+
+input:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
+  background-color: var(--spice-button-active);
+}
+
+select option:checked {
+  color: var(--spice-text);
+  font-weight: bold;
 }
 
 /* Animated equalizer */
@@ -199,16 +225,13 @@
     background-image: url("equalizer-animated-white.gif");
 }
 
-/* Settings */
-input:checked~.x-toggle-indicatorWrapper {
-  background-color: var(--gray-1);
-}
-
-input:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
-  background-color: var(--spice-button-active);
-}
-
-select option:checked {
-  color: var(--spice-text);
-  font-weight: bold;
+/* For that small dot on podcasts that notify us of new episodes */
+.main-home-content
+    > section:first-child
+    > .main-gridContainer-gridContainer
+    > div
+    span[aria-label],
+span[aria-label="New episode"],
+span[aria-label="New Podcast Episode"] {
+    background: var(--spice-accent, var(--spice-text));
 }
