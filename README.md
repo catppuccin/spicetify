@@ -25,7 +25,7 @@
       sudo chmod 775 -R /opt/spotify/Apps
       ```
 2. Follow the [basic usage](https://spicetify.app/docs/getting-started/basic-usage) to setup Spicetify
-3. Either clone this repo `git clone https://github.com/davidbgonz/spicetify.git ~/.config/spicetify/Themes/catppuccin` or copy over the `color.ini` and `user.css` files manually to a directory named `catppuccin` in the Spicetify theme directory. This is usually located in `~/.config/spicetify/Themes`
+3. Either clone this repo `git clone https://github.com/catppuccin/spicetify.git ~/.config/spicetify/Themes/catppuccin` or copy over the `color.ini` and `user.css` files manually to a directory named `catppuccin` in the Spicetify theme directory. This is usually located in `~/.config/spicetify/Themes`
 4. Copy over the catppuccin.js extension to the appropriate place.
    ```
    SPICE_PATH="~/.config/spicetify"
