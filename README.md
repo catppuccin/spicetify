@@ -15,7 +15,7 @@
 
 ## Usage
 
-1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started/installation)
+1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started/simple-installation)
    * Note: The installation instructions for linux have you setting `/opt/spotify` and `/opt/spotify/Apps/*` permissions to `777`. This is not good practice and should be avoided. If you want, you can set the group ownership for these paths to one that your user is apart of (i.e. `users`), or you can create a new group and add it as a secondary group to your user. After that you can use the following command to give access to the group:
       ```
       GROUP=<group_name>
@@ -25,13 +25,12 @@
       sudo chmod 775 -R /opt/spotify/Apps
       ```
 2. Follow the [basic usage](https://spicetify.app/docs/getting-started/basic-usage) to setup Spicetify
-3. Either clone this repo `git clone https://github.com/davidbgonz/spicetify.git ~/.config/spicetify/Themes/catppuccin` or copy over the `color.ini` and `user.css` files manually to a directory named `catppuccin` in the Spicetify theme directory. This is usually located in `~/.config/spicetify/Themes`
-4. Copy over the catppuccin.js extension to the appropriate place.
+3. Either clone this repo `git clone https://github.com/catppuccin/spicetify.git ~/.config/spicetify/Themes/catppuccin` or copy over the `color.ini` and `user.css` files manually to a directory named `catppuccin` in the Spicetify theme directory. This is usually located in `~/.config/spicetify/Themes`
+4. Link over the `catppuccin.js` extension to the appropriate place.
    ```
    SPICE_PATH="~/.config/spicetify"
-   cp $SPICE_PATH/Themes/catppuccin/catppuccin.js $SPICE_PATH/Extensions/
+   ln -s $SPICE_PATH/Themes/catppuccin/catppuccin.js $SPICE_PATH/Extensions/
    ```
-   * Note: If there are updates to the javascipt, do not forget to recopy over `catppuccin.js`!
 4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`
    ```
    spicetify config current_theme catppuccin
