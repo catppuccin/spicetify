@@ -15,7 +15,7 @@
 
 ## Usage
 
-1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started/installation)
+1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started/simple-installation)
    * Note: The installation instructions for linux have you setting `/opt/spotify` and `/opt/spotify/Apps/*` permissions to `777`. This is not good practice and should be avoided. If you want, you can set the group ownership for these paths to one that your user is apart of (i.e. `users`), or you can create a new group and add it as a secondary group to your user. After that you can use the following command to give access to the group:
       ```
       GROUP=<group_name>
