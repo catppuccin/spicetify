@@ -28,7 +28,7 @@
 3. Either clone this repo `git clone https://github.com/catppuccin/spicetify.git ~/.config/spicetify/Themes/catppuccin` or copy over the `color.ini` and `user.css` files manually to a directory named `catppuccin` in the Spicetify theme directory. This is usually located in `~/.config/spicetify/Themes`
 4. Link over the `catppuccin.js` extension to the appropriate place.
    ```
-   SPICE_PATH="~/.config/spicetify"
+   SPICE_PATH="$HOME/.config/spicetify"
    ln -s $SPICE_PATH/Themes/catppuccin/catppuccin.js $SPICE_PATH/Extensions/
    ```
 4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`
