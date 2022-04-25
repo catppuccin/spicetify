@@ -41,6 +41,10 @@
     background-color: var(--spice-sidebar);
 }
 
+.main-view-container button:hover > div[class^='ButtonInner-sc-'] {
+    background-color: var(--spice-button);
+}
+
 .control-button-heart[aria-checked="true"],
 .main-addButton-active,
 .main-addButton-active:focus,
