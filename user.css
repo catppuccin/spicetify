@@ -45,7 +45,7 @@
 .main-addButton-active,
 .main-addButton-active:focus,
 .main-addButton-active:hover {
-    color: var(--spice-selected-row);
+    color: var(--red);
 }
 
 .main-addButton-active:hover {
