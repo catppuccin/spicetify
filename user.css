@@ -41,11 +41,15 @@
     background-color: var(--spice-sidebar);
 }
 
+.main-view-container button:hover > div[class^='ButtonInner-sc-'] {
+    background-color: var(--spice-button);
+}
+
 .control-button-heart[aria-checked="true"],
 .main-addButton-active,
 .main-addButton-active:focus,
 .main-addButton-active:hover {
-    color: var(--spice-selected-row);
+    color: var(--red);
 }
 
 .main-addButton-active:hover {
@@ -60,7 +64,8 @@
 
 /* Top bars */
 .main-entityHeader-backgroundColor,
-.main-actionBarBackground-background {
+.main-actionBarBackground-background,
+.main-view-container main[aria-label="Spotify – Web Player"] > div:first-child {
     display: none;
 }
 
@@ -84,7 +89,6 @@
 }
 
 /* Scrollbar */
-
 .os-theme-spotify > .os-scrollbar-horizontal,
 .os-theme-spotify > .os-scrollbar-vertical {
     padding: 4px;
@@ -234,4 +238,22 @@ select option:checked {
 span[aria-label="New episode"],
 span[aria-label="New Podcast Episode"] {
     background: var(--spice-accent, var(--spice-text));
+}
+
+/* Modals */
+.GenericModal[aria-label="Already added"] > div {
+    background-color: var(--spice-card);
+    color: var(--spice-subtext);
+}
+
+.GenericModal[aria-label="Already added"] button:first-child {
+    color: var(--spice-button-active);
+}
+
+.GenericModal[aria-label="Already added"] button:first-child:hover {
+    color: var(--spice-notification-error);
+}
+
+.GenericModal[aria-label="Already added"] button:last-child:hover > div {
+    background-color: var(--spice-button);
 }
