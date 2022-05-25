@@ -89,7 +89,6 @@
 }
 
 /* Scrollbar */
-
 .os-theme-spotify > .os-scrollbar-horizontal,
 .os-theme-spotify > .os-scrollbar-vertical {
     padding: 4px;
@@ -239,4 +238,22 @@ select option:checked {
 span[aria-label="New episode"],
 span[aria-label="New Podcast Episode"] {
     background: var(--spice-accent, var(--spice-text));
+}
+
+/* Modals */
+.GenericModal[aria-label="Already added"] > div {
+    background-color: var(--spice-card);
+    color: var(--spice-subtext);
+}
+
+.GenericModal[aria-label="Already added"] button:first-child {
+    color: var(--spice-button-active);
+}
+
+.GenericModal[aria-label="Already added"] button:first-child:hover {
+    color: var(--spice-notification-error);
+}
+
+.GenericModal[aria-label="Already added"] button:last-child:hover > div {
+    background-color: var(--spice-button);
 }
