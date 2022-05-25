@@ -65,7 +65,7 @@
 /* Top bars */
 .main-entityHeader-backgroundColor,
 .main-actionBarBackground-background,
-.main-view-container main > div:first-child {
+.main-view-container main[aria-label="Spotify – Web Player"] > div:first-child {
     display: none;
 }
 
