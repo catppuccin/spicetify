@@ -6,7 +6,7 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/davidbgonz/spicetify/stargazers"><img src="https://img.shields.io/github/stars/davidbgonz/spicetify?colorA=363a4f&colorB=b7bdf8&style=for-the-badge style=for-the-badge"></a>
+    <a href="https://github.com/davidbgonz/spicetify/stargazers"><img src="https://img.shields.io/github/stars/davidbgonz/spicetify?colorA=363a4f&colorB=b7bdf8&style=for-the-badge style=for-the-badgestyle=for-the-badge"></a>
     <a href="https://github.com/davidbgonz/spicetify/issues"><img src="https://img.shields.io/github/issues/davidbgonz/spicetify?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
     <a href="https://github.com/davidbgonz/spicetify/contributors"><img src="https://img.shields.io/github/contributors/davidbgonz/spicetify?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
