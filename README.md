@@ -39,7 +39,7 @@
    spicetify config extensions catppuccin.js
    ```
 5. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
-6. This theme is forked to enable the hide the 'Upgrade' button and other similar elements from the Spotify UI. Cannot be pushed into the main repository because that would not be really ethical ;-; 
+6. This theme is forked to hide the 'Upgrade' button and other similar elements from the Spotify UI. Cannot be pushed into the main repository because that would not be really ethical ;-; 
 
 ## 📜 License
 
