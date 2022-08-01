@@ -26,8 +26,8 @@
       ```
 2. Follow the [basic usage](https://spicetify.app/docs/getting-started#basic-usage) to setup Spicetify
 3. Clone the repository. There are 4 flavours for this theme: `mocha`, `macchiato`, `frappe` and `latte`. All themes are contained in their specific folders.
-Select your desired theme and move the folder to your spicetify's directory, usually `~/.config/spicetify/Themes/`. Also move your desired theme's JS file from `js/` to `~/.config/spicetify/Extensions/`. 
-4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`. Example: the `mocha` theme with `lavender` colorscheme can be set as:
+Select your desired theme and move the folder to your spicetify's directory, usually `~/.config/spicetify/Themes/`. Also move your desired theme's JS file from `js/` to `~/.config/spicetify/Extensions/`.  
+4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`. Example: the `mocha` theme with `lavender` color scheme can be set as:
    ```
    spicetify config current_theme catppuccin-mocha
    spicetify config color_scheme lavender
