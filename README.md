@@ -38,7 +38,7 @@
    spicetify config extensions catppuccin-mocha.js
    ```
 5. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
-6. When changing the theme, remember to change the JS extension to the appropriate theme flavour. Extensions can be removed by running `spicetify config extensions catppuccin-{flavour-name}.js-`. Example: `spicetify config extensions  catppuccin-mocha.js-`. Then after changing to your new theme, enable the appropriate extension by running `spicetify config extensions catppuccin-{flavour}.js`. 
+6. When changing the theme, remember to change the JS extension to the appropriate theme flavour. Extensions can be removed by running `spicetify config extensions catppuccin-<flavour-name>.js-`. Example: `spicetify config extensions  catppuccin-mocha.js-`. Then after changing to your new theme, enable the appropriate extension by running `spicetify config extensions catppuccin-<flavour-name>.js`. 
 ## 📜 License
 
 Catppuccin is released under the MIT license, which grants the following permissions:
@@ -54,6 +54,7 @@ For more convoluted language, see the [LICENSE](https://github.com/catppuccin/ca
 
 - [davidbgonz](https://github.com/davidbgonz)
 - [OlaoluwaM](https://github.com/OlaoluwaM)
+- [gjostx31](https://github.com/ghostx31)
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2022-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
