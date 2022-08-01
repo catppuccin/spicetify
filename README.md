@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/davidbgonz/spicetify/stargazers"><img src="https://img.shields.io/github/stars/davidbgonz/spicetify?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/davidbgonz/spicetify/issues"><img src="https://img.shields.io/github/issues/davidbgonz/spicetify?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/davidbgonz/spicetify/contributors"><img src="https://img.shields.io/github/contributors/davidbgonz/spicetify?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/spicetify/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/spicetify?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/spicetify/issues"><img src="https://img.shields.io/github/issues/catppuccin/spicetify?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/spicetify/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/spicetify?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 ![Spicetify Theme Preview](assets/preview.png)
@@ -25,25 +25,24 @@
       sudo chmod 775 -R /opt/spotify/Apps
       ```
 2. Follow the [basic usage](https://spicetify.app/docs/getting-started#basic-usage) to setup Spicetify
-3. Either clone this repo `git clone https://github.com/catppuccin/spicetify.git ~/.config/spicetify/Themes/catppuccin` or copy over the `color.ini` and `user.css` files manually to a directory named `catppuccin` in the Spicetify theme directory. This is usually located in `~/.config/spicetify/Themes`
-4. Link over the `catppuccin.js` extension to the appropriate place.
+3. Clone the repository. There are 4 flavours for this theme: `mocha`, `macchiato`, `frappe` and `latte`. All themes are present in their specific folders. Move the theme folders as well as the extensions to spicetify's config directory by running:
+      ```
+      cp -r catppuccin-* ~/.config/spicetify/Themes/
+      cp js/* ~/.config/spicetify/Extensions/
+      ```
+4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`. Example: the `mocha` theme with `lavender` color scheme can be set as:
    ```
-   SPICE_PATH="$HOME/.config/spicetify"
-   ln -s $SPICE_PATH/Themes/catppuccin/catppuccin.js $SPICE_PATH/Extensions/
-   ```
-4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`
-   ```
-   spicetify config current_theme catppuccin
+   spicetify config current_theme catppuccin-mocha
    spicetify config color_scheme lavender
    spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
-   spicetify config extensions catppuccin.js
+   spicetify config extensions catppuccin-mocha.js
    ```
 5. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
-
+6. When changing the theme, remember to change the JS extension to the appropriate theme flavour. Extensions can be removed by running `spicetify config extensions catppuccin-{flavour-name}.js-`. Example: `spicetify config extensions  catppuccin-mocha.js-`. Then after changing to your new theme, enable the appropriate extension by running `spicetify config extensions catppuccin-{flavour}.js`. 
 ## 📜 License
 
 Catppuccin is released under the MIT license, which grants the following permissions:
-
+****
 -   Commercial use
 -   Distribution
 -   Modification
