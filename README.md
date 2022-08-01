@@ -42,7 +42,7 @@
 ## 📜 License
 
 Catppuccin is released under the MIT license, which grants the following permissions:
-****
+
 -   Commercial use
 -   Distribution
 -   Modification
@@ -54,7 +54,7 @@ For more convoluted language, see the [LICENSE](https://github.com/catppuccin/ca
 
 - [davidbgonz](https://github.com/davidbgonz)
 - [OlaoluwaM](https://github.com/OlaoluwaM)
-- [gjostx31](https://github.com/ghostx31)
+- [ghostx31](https://github.com/ghostx31)
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2022-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
