@@ -320,4 +320,6 @@ span[aria-label="New Podcast Episode"] {
     background-color: var(--spice-button);
 }
 
-
+.main-rootlist-rootlistItemLink:link, .main-rootlist-rootlistItemLink:visited {
+    z-index: 1;
+}
