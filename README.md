@@ -11,7 +11,26 @@
     <a href="https://github.com/catppuccin/spicetify/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/spicetify?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-![Spicetify Theme Preview](assets/preview.png)
+![Spicetify Theme Preview](assets/preview.webp)
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/catppuccin-latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/catppuccin-frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/catppuccin-macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/catppuccin-mocha.webp"/>
+</details>
 
 ## Usage
 
