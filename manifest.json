@@ -1,0 +1,12 @@
+{
+    "name": "Catppuccin",
+    "description": "🎧 Soothing pastel theme for Spotify ",
+    "preview": "assets/catppuccin-mocha.webp",
+    "readme": "README.md",
+    "usercss": "catppuccin-mocha/user.css",
+    "schemes": "catppuccin-mocha/color.ini",
+    "branch": "main",
+    "authors": [
+        { "name": "Catppuccin Org", "url": "https://github.com/catppuccin" }
+    ]
+}

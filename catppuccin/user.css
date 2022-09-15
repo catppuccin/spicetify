@@ -1,0 +1,468 @@
+.mocha {
+    --flamingo: #f2cdcd;
+    --mauve: #cba6f7;
+    --pink: #f5c2e7;
+    --maroon: #eba0ac;
+    --red: #f38ba8;
+    --peach: #fab387;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --blue: #89b4fa;
+    --sky: #89dceb;
+    --crust: #11111b;
+    --mantle: #181825;
+    --base: #1e1e2e;
+    --surface0: #313244;
+    --surface1: #45475a;
+    --overlay0: #6c7086;
+    ---overlay1: #7f849c;
+    --overlay2: #9399b2;
+    --white: #d9e0ee;
+    --lavender: #b4befe;
+    --rosewater: #f5e0dc;
+}
+
+.macchiato {
+    --flamingo: #f0c6c6;
+    --mauve: #c6a0f6;
+    --pink: #f5bde6;
+    --maroon: #ee99a0;
+    --red: #ed8796;
+    --peach: #f5a97f;
+    --yellow: #eed49f;
+    --green: #a6da95;
+    --teal: #8bd5ca;
+    --blue: #8aadf4;
+    --sky: #91d7e3;
+    --crust: #181926;
+    --mantle: #1e2030;
+    --base: #24273a;
+    --surface0: #363a4f;
+    --surface1: #494d64;
+    --overlay0: #6e738d;
+    ---overlay1: #8087a2;
+    --overlay2: #939ab7;
+    --text: #cad3f5;
+    --lavender: #b7bdf8;
+    --rosewater: #f4dbd6;
+}
+
+.frappe {
+    --flamingo: #eebebe;
+    --mauve: #ca9ee6;
+    --pink: #f4b8e4;
+    --maroon: #ea999c;
+    --red: #e78284;
+    --peach: #ef9f76;
+    --yellow: #e5c890;
+    --green: #a6d189;
+    --teal: #81c8be;
+    --blue: #8caaee;
+    --sky: #99dadb;
+    --crust: #232634;
+    --mantle: #292c3c;
+    --base: #303446;
+    --surface0: #414559;
+    --surface1: #51576d;
+    --overlay0: #737994;
+    ---overlay1: #838ba7;
+    --overlay2: #949cbb;
+    --white: #c6d0f5;
+    --lavender: #babbf1;
+    --rosewater: #f2d5cf;
+}
+
+.latte {
+    --flamingo: #dd7878;
+    --mauve: #8839ef;
+    --pink: #ea76cb;
+    --maroon: #e64553;
+    --red: #d20f39;
+    --peach: #fe640b;
+    --yellow: #df8e1d;
+    --green: #40a02b;
+    --teal: #179299;
+    --blue: #1e66f5;
+    --sky: #04a5e5;
+    --crust: #dce0e8;
+    --mantle: #e6e9ef;
+    --base: #eff1f5;
+    --surface0: #ccd0da;
+    --surface1: #bcc0cc;
+    --overlay0: #9ca0b0;
+    ---overlay1: #8c8fa1;
+    --overlay2: #7c7f93;
+    --text: #4c4f69;
+    --lavender: #7287fd;
+    --rosewater: #dc8a78;
+}
+
+/* Buttons */
+.main-playButton-PlayButton.main-playButton-primary {
+    color: var(--spice-player);
+}
+
+.main-button-primary {
+    background-color: var(--spice-main);
+}
+.main-button-primary:active,
+.main-button-primary:focus,
+.main-button-primary:hover {
+    background-color: var(--spice-sidebar);
+}
+
+.main-view-container button:hover > div[class^="ButtonInner-sc-"] {
+    background-color: var(--spice-button);
+}
+
+.control-button-heart[aria-checked="true"],
+.main-addButton-active,
+.main-addButton-active:focus,
+.main-addButton-active:hover {
+    color: var(--red);
+}
+
+.main-addButton-active:hover {
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+/* Progress bar */
+.x-progressBar-progressBarBg > div > div {
+    background-color: var(--spice-text);
+}
+
+/* Top bars */
+.main-entityHeader-backgroundColor,
+.main-actionBarBackground-background,
+.main-view-container main[aria-label="Spotify – Web Player"] > div:first-child {
+    display: none;
+}
+
+.main-topBar-background {
+    background-color: var(--spice-main) !important;
+}
+
+.main-entityHeader-withBackgroundImage {
+    background-color: rgba(var(--spice-rgb-player), 0.2);
+}
+
+/* Sidebar */
+.main-navBar-navBar li:hover > div,
+.main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
+.spicetify-playlist-list li:hover {
+    background-color: var(--spice-main);
+}
+
+#spicetify-sticky-list li:hover > div {
+    border-radius: 4px;
+}
+
+/* Scrollbar */
+.os-theme-spotify > .os-scrollbar-horizontal,
+.os-theme-spotify > .os-scrollbar-vertical {
+    padding: 4px;
+}
+
+.os-theme-spotify.os-host-transition
+    > .os-scrollbar-horizontal
+    > .os-scrollbar-track
+    > .os-scrollbar-handle,
+.os-theme-spotify.os-host-transition
+    > .os-scrollbar-vertical
+    > .os-scrollbar-track
+    > .os-scrollbar-handle {
+    background-color: var(--decorative-base);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #575268;
+    border-radius: 4px;
+}
+
+/* Home */
+.main-home-homeHeader {
+    display: none;
+}
+
+.main-home-content
+    > section:first-child
+    > .main-gridContainer-gridContainer
+    > div {
+    background-color: var(--spice-card);
+}
+.main-home-content
+    > section:first-child
+    > .main-gridContainer-gridContainer
+    > div:hover {
+    background-color: var(--spice-misc);
+}
+
+.main-gridContainer-gridContainer > div,
+.main-gridContainer-gridContainer > div > div > div {
+    border-radius: 6px;
+}
+
+/* Cards */
+.main-card-card {
+    border-radius: 6px;
+}
+
+.main-card-imageContainer {
+    margin: -16px -16px 16px -16px;
+}
+
+.main-cardImage-imageWrapper,
+.main-cardImage-image {
+    border-radius: 6px 6px 0 0;
+}
+
+/* Settings */
+input:checked ~ .x-toggle-indicatorWrapper {
+    background-color: var(---overlay1);
+}
+
+input:hover:not([disabled]):not(:active) ~ .x-toggle-indicatorWrapper {
+    background-color: var(--spice-button-active);
+}
+
+select option:checked {
+    color: var(--spice-text);
+    font-weight: bold;
+}
+
+/* Animated equalizer */
+/* EQ color classes are specified here in case the js extension is not moved over
+ * The default green eq will be used in this case */
+.catppuccin-eq-rosewater .main-trackList-playingIcon,
+.catppuccin-eq-flamingo .main-trackList-playingIcon,
+.catppuccin-eq-mauve .main-trackList-playingIcon,
+.catppuccin-eq-pink .main-trackList-playingIcon,
+.catppuccin-eq-maroon .main-trackList-playingIcon,
+.catppuccin-eq-red .main-trackList-playingIcon,
+.catppuccin-eq-peach .main-trackList-playingIcon,
+.catppuccin-eq-yellow .main-trackList-playingIcon,
+.catppuccin-eq-green .main-trackList-playingIcon,
+.catppuccin-eq-teal .main-trackList-playingIcon,
+.catppuccin-eq-blue .main-trackList-playingIcon,
+.catppuccin-eq-sky .main-trackList-playingIcon,
+.catppuccin-eq-lavender .main-trackList-playingIcon,
+.catppuccin-eq-white .main-trackList-playingIcon {
+    background-size: cover;
+    padding-left: 100%;
+}
+
+/* For that small dot on podcasts that notify us of new episodes */
+.main-home-content
+    > section:first-child
+    > .main-gridContainer-gridContainer
+    > div
+    span[aria-label],
+span[aria-label="New episode"],
+span[aria-label="New Podcast Episode"] {
+    background: var(--spice-accent, var(--spice-text));
+}
+
+/* Modals */
+.GenericModal[aria-label="Already added"] > div {
+    background-color: var(--spice-card);
+    color: var(--spice-subtext);
+}
+
+.GenericModal[aria-label="Already added"] button:first-child {
+    color: var(--spice-button-active);
+}
+
+.GenericModal[aria-label="Already added"] button:first-child:hover {
+    color: var(--spice-notification-error);
+}
+
+.GenericModal[aria-label="Already added"] button:last-child:hover > div {
+    background-color: var(--spice-button);
+}
+
+.main-rootlist-rootlistItemLink:link,
+.main-rootlist-rootlistItemLink:visited {
+    z-index: 1;
+}
+
+/* mocha */
+.mocha .main-trackList-playingIcon .catppuccin-eq-rosewater {
+    background-image: url("equalizer-animated-mocha-rosewater.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-flamingo {
+    background-image: url("equalizer-animated-mocha-flamingo.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-mauve {
+    background-image: url("equalizer-animated-mocha-mauve.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-pink {
+    background-image: url("equalizer-animated-mocha-pink.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-maroon {
+    background-image: url("equalizer-animated-mocha-maroon.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-red {
+    background-image: url("equalizer-animated-mocha-red.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-peach {
+    background-image: url("equalizer-animated-mocha-peach.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-yellow {
+    background-image: url("equalizer-animated-mocha-yellow.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-green {
+    background-image: url("equalizer-animated-mocha-green.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-teal {
+    background-image: url("equalizer-animated-mocha-teal.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-blue {
+    background-image: url("equalizer-animated-mocha-blue.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-sky {
+    background-image: url("equalizer-animated-mocha-sky.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-lavender {
+    background-image: url("equalizer-animated-mocha-lavender.gif");
+}
+.mocha .main-trackList-playingIcon .catppuccin-eq-lavender {
+    background-image: url("equalizer-animated-mocha-white.gif");
+}
+
+/* macchiato */
+.macchiato .main-trackList-playingIcon .catppuccin-eq-rosewater {
+    background-image: url("equalizer-animated-macchiato-rosewater.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-flamingo {
+    background-image: url("equalizer-animated-macchiato-flamingo.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-mauve {
+    background-image: url("equalizer-animated-macchiato-mauve.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-pink {
+    background-image: url("equalizer-animated-macchiato-pink.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-maroon {
+    background-image: url("equalizer-animated-macchiato-maroon.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-red {
+    background-image: url("equalizer-animated-macchiato-red.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-peach {
+    background-image: url("equalizer-animated-macchiato-peach.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-yellow {
+    background-image: url("equalizer-animated-macchiato-yellow.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-green {
+    background-image: url("equalizer-animated-macchiato-green.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-teal {
+    background-image: url("equalizer-animated-macchiato-teal.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-blue {
+    background-image: url("equalizer-animated-macchiato-blue.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-sky {
+    background-image: url("equalizer-animated-macchiato-sky.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-lavender {
+    background-image: url("equalizer-animated-macchiato-lavender.gif");
+}
+.macchiato .main-trackList-playingIcon .catppuccin-eq-lavender {
+    background-image: url("equalizer-animated-macchiato-white.gif");
+}
+
+/* frappe */
+.frappe .main-trackList-playingIcon .catppuccin-eq-rosewater {
+    background-image: url("equalizer-animated-frappe-rosewater.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-flamingo {
+    background-image: url("equalizer-animated-frappe-flamingo.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-mauve {
+    background-image: url("equalizer-animated-frappe-mauve.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-pink {
+    background-image: url("equalizer-animated-frappe-pink.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-maroon {
+    background-image: url("equalizer-animated-frappe-maroon.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-red {
+    background-image: url("equalizer-animated-frappe-red.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-peach {
+    background-image: url("equalizer-animated-frappe-peach.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-yellow {
+    background-image: url("equalizer-animated-frappe-yellow.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-green {
+    background-image: url("equalizer-animated-frappe-green.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-teal {
+    background-image: url("equalizer-animated-frappe-teal.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-blue {
+    background-image: url("equalizer-animated-frappe-blue.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-sky {
+    background-image: url("equalizer-animated-frappe-sky.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-lavender {
+    background-image: url("equalizer-animated-frappe-lavender.gif");
+}
+.frappe .main-trackList-playingIcon .catppuccin-eq-lavender {
+    background-image: url("equalizer-animated-frappe-white.gif");
+}
+
+/* latte */
+.latte .main-trackList-playingIcon .catppuccin-eq-rosewater {
+    background-image: url("equalizer-animated-latte-rosewater.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-flamingo {
+    background-image: url("equalizer-animated-latte-flamingo.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-mauve {
+    background-image: url("equalizer-animated-latte-mauve.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-pink {
+    background-image: url("equalizer-animated-latte-pink.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-maroon {
+    background-image: url("equalizer-animated-latte-maroon.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-red {
+    background-image: url("equalizer-animated-latte-red.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-peach {
+    background-image: url("equalizer-animated-latte-peach.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-yellow {
+    background-image: url("equalizer-animated-latte-yellow.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-green {
+    background-image: url("equalizer-animated-latte-green.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-teal {
+    background-image: url("equalizer-animated-latte-teal.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-blue {
+    background-image: url("equalizer-animated-latte-blue.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-sky {
+    background-image: url("equalizer-animated-latte-sky.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-lavender {
+    background-image: url("equalizer-animated-latte-lavender.gif");
+}
+.latte .main-trackList-playingIcon .catppuccin-eq-lavender {
+    background-image: url("equalizer-animated-latte-white.gif");
+}
