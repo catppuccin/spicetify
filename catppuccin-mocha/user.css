@@ -36,6 +36,20 @@
   --rosewater: #f5e0dc;
 }
 
+/* new search bar and top buttons / profile picture */
+.nav-alt .x-searchInput-searchInputInput,.main-topBar-button{
+    background-color: var(--spice-main);
+}
+/* New search bar hover, for some reason .main-topBar-button:hover does NOT like to work :/ maybe someone else can fix it */
+.nav-alt .x-searchInput-searchInputInput:hover{
+    background-color: var(--spice-main);
+}
+/* Disable shadow below devider from liked songs to playlists*/
+.main-rootlist-rootlistDividerContainer{
+    opacity: 0;
+}
+
+
 /* Buttons */
 .main-playButton-PlayButton.main-playButton-primary {
     color: var(--spice-player);
