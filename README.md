@@ -32,6 +32,14 @@
 <img src="assets/catppuccin-mocha.webp"/>
 </details>
 
+**Community themes:**
+<details>
+<summary>Catppuccin Recolor - Ziro Theme</summary>
+
+[Config](https://github.com/Aurn1ox/dots/tree/main/.config/spicetify/Themes/Ziro)
+<img src="https://raw.githubusercontent.com/Aurn1ox/dots/main/assets/spotify-preview.png"/>
+</details>
+
 ## Usage
 
 1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started)
