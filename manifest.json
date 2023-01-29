@@ -8,8 +8,8 @@
     "include": "https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-frappe.js",
     "readme": "README.md",
     "authors": [
-        { "name": "ghostx32", "url": "https://github.com/ghostx31" },
-        { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+      { "name": "ghostx32", "url": "https://github.com/ghostx31" },
+      { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
     ],
     "tags": ["light", "pastel"]
   },
@@ -22,8 +22,8 @@
     "include": "https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-latte.js",
     "readme": "README.md",
     "authors": [
-        { "name": "ghostx32", "url": "https://github.com/ghostx31" },
-        { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+      { "name": "ghostx32", "url": "https://github.com/ghostx31" },
+      { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
     ],
     "tags": ["light", "pastel"]
   },
@@ -36,8 +36,8 @@
     "include": "https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-macchiato.js",
     "readme": "README.md",
     "authors": [
-        { "name": "ghostx32", "url": "https://github.com/ghostx31" },
-        { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+      { "name": "ghostx32", "url": "https://github.com/ghostx31" },
+      { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
     ],
     "tags": ["dark", "pastel"]
   },
@@ -50,8 +50,8 @@
     "include": "https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-mocha.js",
     "readme": "README.md",
     "authors": [
-        { "name": "ghostx32", "url": "https://github.com/ghostx31" },
-        { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+      { "name": "ghostx32", "url": "https://github.com/ghostx31" },
+      { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
     ],
     "tags": ["dark", "pastel"]
   }
