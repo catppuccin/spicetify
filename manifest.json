@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Catpuccin Frappe",
+    "description": "A soothing pastel theme",
+    "preview": "assets/catppuccin-frappe.webp",
+    "usercss": "catppuccin-frappe/user.css",
+    "schemes": "catppuccin-frappe/color.ini",
+    "include": "https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-frappe.js",
+    "readme": "README.md",
+    "authors": [
+        { "name": "ghostx32", "url": "https://github.com/ghostx31" },
+        { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+    ],
+    "tags": ["light", "pastel"]
+  },
+  {
+    "name": "Catpuccin Latte",
+    "description": "A soothing pastel theme",
+    "preview": "assets/catppuccin-latte.webp",
+    "usercss": "catppuccin-latte/user.css",
+    "schemes": "catppuccin-latte/color.ini",
+    "include": "https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-latte.js",
+    "readme": "README.md",
+    "authors": [
+        { "name": "ghostx32", "url": "https://github.com/ghostx31" },
+        { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+    ],
+    "tags": ["light", "pastel"]
+  },
+  {
+    "name": "Catpuccin Macchiato",
+    "description": "A soothing pastel theme",
+    "preview": "assets/catppuccin-macchiato.webp",
+    "usercss": "catppuccin-macchiato/user.css",
+    "schemes": "catppuccin-macchiato/color.ini",
+    "include": "https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-macchiato.js",
+    "readme": "README.md",
+    "authors": [
+        { "name": "ghostx32", "url": "https://github.com/ghostx31" },
+        { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+    ],
+    "tags": ["dark", "pastel"]
+  },
+  {
+    "name": "Catpuccin Mocha",
+    "description": "A soothing pastel theme",
+    "preview": "assets/catppuccin-mocha.webp",
+    "usercss": "catppuccin-mocha/user.css",
+    "schemes": "catppuccin-mocha/color.ini",
+    "include": "https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-mocha.js",
+    "readme": "README.md",
+    "authors": [
+        { "name": "ghostx32", "url": "https://github.com/ghostx31" },
+        { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+    ],
+    "tags": ["dark", "pastel"]
+  }
+]
