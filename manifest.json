@@ -1,6 +1,6 @@
 [
   {
-    "name": "Catpuccin Frappe",
+    "name": "Catpuccin_Frappe",
     "description": "A soothing pastel theme",
     "preview": "assets/catppuccin-frappe.webp",
     "readme": "README.md",
@@ -14,7 +14,7 @@
     "tags": ["light", "pastel"]
   },
   {
-    "name": "Catpuccin Latte",
+    "name": "Catpuccin_Latte",
     "description": "A soothing pastel theme",
     "preview": "assets/catppuccin-latte.webp",
     "readme": "README.md",
@@ -28,7 +28,7 @@
     "tags": ["light", "pastel"]
   },
   {
-    "name": "Catpuccin Macchiato",
+    "name": "Catpuccin_Macchiato",
     "description": "A soothing pastel theme",
     "preview": "assets/catppuccin-macchiato.webp",
     "readme": "README.md",
@@ -42,7 +42,7 @@
     "tags": ["dark", "pastel"]
   },
   {
-    "name": "Catpuccin Mocha",
+    "name": "Catpuccin_Mocha",
     "description": "A soothing pastel theme",
     "preview": "assets/catppuccin-mocha.webp",
     "readme": "README.md",
