@@ -1,58 +1,66 @@
 [
-  {
-    "name": "Catpuccin_Frappe",
-    "description": "A soothing pastel theme",
-    "preview": "assets/catppuccin-frappe.webp",
-    "readme": "README.md",
-    "usercss": "catppuccin-frappe/user.css",
-    "schemes": "catppuccin-frappe/color.ini",
-    "include": ["https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-frappe.js"],
-    "authors": [
-      { "name": "ghostx32", "url": "https://github.com/ghostx31" },
-      { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
-    ],
-    "tags": ["light", "pastel"]
-  },
-  {
-    "name": "Catpuccin_Latte",
-    "description": "A soothing pastel theme",
-    "preview": "assets/catppuccin-latte.webp",
-    "readme": "README.md",
-    "usercss": "catppuccin-latte/user.css",
-    "schemes": "catppuccin-latte/color.ini",
-    "include": ["https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-latte.js"],
-    "authors": [
-      { "name": "ghostx32", "url": "https://github.com/ghostx31" },
-      { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
-    ],
-    "tags": ["light", "pastel"]
-  },
-  {
-    "name": "Catpuccin_Macchiato",
-    "description": "A soothing pastel theme",
-    "preview": "assets/catppuccin-macchiato.webp",
-    "readme": "README.md",
-    "usercss": "catppuccin-macchiato/user.css",
-    "schemes": "catppuccin-macchiato/color.ini",
-    "include": ["https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-macchiato.js"],
-    "authors": [
-      { "name": "ghostx32", "url": "https://github.com/ghostx31" },
-      { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
-    ],
-    "tags": ["dark", "pastel"]
-  },
-  {
-    "name": "Catpuccin_Mocha",
-    "description": "A soothing pastel theme",
-    "preview": "assets/catppuccin-mocha.webp",
-    "readme": "README.md",
-    "usercss": "catppuccin-mocha/user.css",
-    "schemes": "catppuccin-mocha/color.ini",
-    "include": ["https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-mocha.js"],
-    "authors": [
-      { "name": "ghostx32", "url": "https://github.com/ghostx31" },
-      { "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
-    ],
-    "tags": ["dark", "pastel"]
-  }
+	{
+		"name": "Catpuccin_Frappe",
+		"description": "A soothing pastel theme",
+		"preview": "assets/catppuccin-frappe.webp",
+		"readme": "README.md",
+		"usercss": "catppuccin-frappe/user.css",
+		"schemes": "catppuccin-frappe/color.ini",
+		"include": [
+			"https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-frappe.js"
+		],
+		"authors": [
+			{ "name": "ghostx32", "url": "https://github.com/ghostx31" },
+			{ "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+		],
+		"tags": ["light", "pastel"]
+	},
+	{
+		"name": "Catpuccin_Latte",
+		"description": "A soothing pastel theme",
+		"preview": "assets/catppuccin-latte.webp",
+		"readme": "README.md",
+		"usercss": "catppuccin-latte/user.css",
+		"schemes": "catppuccin-latte/color.ini",
+		"include": [
+			"https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-latte.js"
+		],
+		"authors": [
+			{ "name": "ghostx32", "url": "https://github.com/ghostx31" },
+			{ "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+		],
+		"tags": ["light", "pastel"]
+	},
+	{
+		"name": "Catpuccin_Macchiato",
+		"description": "A soothing pastel theme",
+		"preview": "assets/catppuccin-macchiato.webp",
+		"readme": "README.md",
+		"usercss": "catppuccin-macchiato/user.css",
+		"schemes": "catppuccin-macchiato/color.ini",
+		"include": [
+			"https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-macchiato.js"
+		],
+		"authors": [
+			{ "name": "ghostx32", "url": "https://github.com/ghostx31" },
+			{ "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+		],
+		"tags": ["dark", "pastel"]
+	},
+	{
+		"name": "Catpuccin_Mocha",
+		"description": "A soothing pastel theme",
+		"preview": "assets/catppuccin-mocha.webp",
+		"readme": "README.md",
+		"usercss": "catppuccin-mocha/user.css",
+		"schemes": "catppuccin-mocha/color.ini",
+		"include": [
+			"https://github.com/catppuccin/spicetify/blob/main/js/catppuccin-mocha.js"
+		],
+		"authors": [
+			{ "name": "ghostx32", "url": "https://github.com/ghostx31" },
+			{ "name": "davidbgonz", "url": "https://github.com/davidbgonz" }
+		],
+		"tags": ["dark", "pastel"]
+	}
 ]
