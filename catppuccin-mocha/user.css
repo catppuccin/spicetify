@@ -270,3 +270,15 @@ span[aria-label="New Podcast Episode"] {
 .main-rootlist-rootlistItemLink:link, .main-rootlist-rootlistItemLink:visited {
     z-index: 1;
 }
+
+/*Buddy Feed theming */
+.main-buddyFeed-activityMetadata .main-buddyFeed-username a,
+.main-buddyFeed-activityMetadata .main-buddyFeed-usernameAndTimestamp {
+    color: rgba(var(--text), 0.2);
+}
+
+.main-buddyFeed-activityMetadata .main-buddyFeed-artistAndTrackName a,
+.main-buddyFeed-activityMetadata .main-buddyFeed-playbackContextLink,
+.main-buddyFeed-activityMetadata .main-buddyFeed-timestamp {
+    color: rgba(var(--spice-rgb-sidebar-text), 0.8);
+}
