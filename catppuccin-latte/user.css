@@ -1,7 +1,6 @@
 /* Color Pallette */
 /* Note: These variables should be used ONLY when needed across ALL of the color palettes. */
 :root {
-  /* Morning */
   --flamingo: #dd7878;
   --mauve: #8839ef;
   --pink: #ea76cb;
@@ -13,38 +12,40 @@
   --teal: #179299;
   --blue: #1e66f5;
   --sky: #04a5e5;
-  /* Night */
-  /* --black-0: #161320; */
   --crust: #dce0e8;
-  /* --black-1: #1A1826; */
   --mantle: #e6e9ef;
-  /* --black-2: #1E1E2E;  */
   --base: #eff1f5;
-  /* --black-3: #302D41; */
   --surface0: #ccd0da;
-  /* --black-4: #575268;  */
   --surface1: #bcc0cc; 
-  /* --gray-0: #6E6C7E;  */
   --overlay0: #9ca0b0;
-  /* --gray-1: #988BA2; */
   ---overlay1: #8c8fa1;
-  /* --gray-2: #C3BAC6; */
   --overlay2: #7c7f93;
-  /* --white: #D9E0EE; */
   --text: #4c4f69;
   --lavender: #7287fd;
   --rosewater: #dc8a78;
 }
-
-/* * { */
-/*     color: var(--text); */
-/* } */
 
 .button {
   color: var(--text);
 }
 
 /* Buttons */
+.main-shuffleButton-button:focus:not(:focus-visible,:hover) {
+  color: var(---overlay1);
+}
+.main-shuffleButton-button {
+  color: var(---overlay1);
+}
+.main-shuffleButton-button:hover {
+  color: var(--spice-text);
+}
+.main-shuffleButton-button.main-shuffleButton-active {
+  color: var(--white);
+}
+
+.main-skipBackButton-button {
+  color: var(--white);
+}
 .main-playButton-PlayButton.main-playButton-primary {
     color: var(--spice-player);
 }
@@ -69,13 +70,36 @@
   color: var(--text);
 }
 
-.Type__TypeElement-goli3j-0.cpSTHq.playback-bar__progress-time-elapsed, .Type__TypeElement-goli3j-0 cpSTHq main-playbackBarRemainingTime-container {
+.TypeElement-finale-textSubdued-type {
   color: var(--text);
 }
+
+/* .Type__TypeElement-goli3j-0.cpSTHq.playback-bar__progress-time-elapsed, .Type__TypeElement-goli3j-0 cpSTHq main-playbackBarRemainingTime-container {
+  color: var(--text);
+} */
 /* Search bar placeholder */
 .QZhV0hWVKlExlKr266jo::placeholder {
   color: var(--text);
+}/* New artist side bar */
+
+.Button-textSubdued-sm-16-buttonTertiary-condensed-useBrowserDefaultFocusStyle {
+  color: var(--spice-text) !important;
 }
+
+/* The artist venue/date and next in queue name of artist */
+.TypeElement-mesto-type {
+  color: var(--white) !important;
+}
+
+.Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {
+  color: var(--spice-text);
+}
+
+/* Duration in album view */
+.UyzJidwrGk3awngSGIwv {
+    color: var(--white);
+}
+
 div.context-menu {
   background-color: var(--crust);
 }
@@ -86,6 +110,20 @@ div.context-menu {
 .main-button-primary:focus,
 .main-button-primary:hover {
     background-color: var(--spice-sidebar);
+}
+
+.main-skipForwardButton-button {
+  color: var(--white);
+}
+
+/* Generic control buttons */
+.Button-sm-16-buttonTertiary-iconOnly-isUsingKeyboard-useBrowserDefaultFocusStyle {
+  color: var(--text) !important;
+}
+
+/* Connect to device etc. */
+.control-button {
+  color: var(--white);
 }
 
 .main-view-container button:hover > div[class^='ButtonInner-sc-'] {
@@ -112,6 +150,27 @@ div.context-menu {
 }
 
 /* Top bars */
+
+.main-topBar-topBarContainer {
+  margin-top: 10px;
+}
+.main-topBar-navLink:hover {
+  background: var(--text);
+}
+
+.main-topBar-background {
+  background-color: var(--mantle) !important;
+}
+
+/* The search icon svg */
+.mOLTJ2mxkzHJj6Y9_na_ {
+  color: var(--text);
+}
+/* Search bar */
+.x-searchInput-searchInputInput {
+  background-color: var(--surface1);
+}
+
 .main-entityHeader-backgroundColor,
 .main-actionBarBackground-background,
 .main-view-container main[aria-label="Spotify – Web Player"] > div:first-child {
@@ -136,9 +195,27 @@ div.context-menu {
 #spicetify-sticky-list li:hover > div {
     border-radius: 4px;
 }
-/* div.jb9xD5ECTqKFK02qe3HZ {
-    background-color: var(--mantle);
-} */
+
+/* Your collection, marketplace and lyrics app buttons */
+.main-navBar-navBarLink {
+  color: var(--spice-text);
+}
+
+/* Your collection svg */
+.Svg-img-24-icon.collection-icon {
+  color: var(--text);
+}
+
+.collection-icon {
+  color: var(--text);
+}
+.main-createPlaylistButton-button {
+  color: var(--spice-text);
+}
+
+.main-navBar-navBarLinkActive {
+  background-color: var(--spice-tab-active);
+}
 
 p.Type__TypeElement-goli3j-0.gAmaez.fUYMR7LuRXv0KJWFvRZA {
     color: var(--spice-text);
@@ -210,6 +287,30 @@ span.UyzJidwrGk3awngSGIwv, .main-tag-container, .Type__TypeElement-goli3j-0.ebHs
 .main-cardImage-imageWrapper,
 .main-cardImage-image {
     border-radius: 6px 6px 0 0;
+}
+
+/* Card secondary information: no. of songs, artist */
+.TypeElement-mesto-textSubdued-type {
+    color: var(--text);
+}
+
+/* New artist side bar */
+.Button-textSubdued-sm-16-buttonTertiary-condensed-useBrowserDefaultFocusStyle {
+  color: var(--text) !important;
+}
+
+/* The artist venue/date and next in queue name of artist */
+.TypeElement-mesto-type {
+  color: var(--white) !important;
+}
+
+.Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {
+  color: var(--spice-text);
+}
+
+/* Duration in album view */
+.UyzJidwrGk3awngSGIwv {
+    color: var(--white);
 }
 
 /* Settings */

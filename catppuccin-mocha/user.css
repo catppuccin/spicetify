@@ -13,31 +13,35 @@
   --teal: #94e2d5;
   --blue: #89b4fa;
   --sky: #89dceb;
-  /* Night */
-  /* --black-0: #161320; */
   --crust: #11111B;
-  /* --black-1: #1A1826; */
   --mantle: #181825;
-  /* --black-2: #1E1E2E;  */
   --base: #1E1E2E;
-  /* --black-3: #302D41; */
   --surface0: #313244;
-  /* --black-4: #575268;  */
   --surface1: #45475A; 
-  /* --gray-0: #6E6C7E;  */
   --overlay0: #6C7086;
-  /* --gray-1: #988BA2; */
   ---overlay1: #7f849C;
-  /* --gray-2: #C3BAC6; */
   --overlay2: #9399B2;
-  /* --white: #D9E0EE; */
-  --white: #d9e0ee;
+  --white: #cdd6f4;
   --lavender: #b4befe;
   --rosewater: #f5e0dc;
 }
 
 /* Buttons */
-.main-playButton-PlayButton.main-playButton-primary {
+
+.main-shuffleButton-button:focus:not(:focus-visible,:hover) {
+  color: var(--surface1);
+}
+.main-shuffleButton-button:hover {
+  color: var(--spice-text);
+}
+.main-shuffleButton-button.main-shuffleButton-active {
+  color: var(--white);
+}
+
+.main-skipBackButton-button {
+  color: var(--white);
+}
+.main-sh.main-playButton-PlayButton.main-playButton-primary {
     color: var(--spice-player);
 }
 
@@ -50,6 +54,19 @@
     background-color: var(--spice-sidebar);
 }
 
+.main-skipForwardButton-button {
+  color: var(--white);
+}
+
+/* Generic control buttons */
+.Button-sm-16-buttonTertiary-iconOnly-isUsingKeyboard-useBrowserDefaultFocusStyle {
+  color: var(--white) !important;
+}
+
+/* Connect to device etc. */
+.control-button {
+  color: var(--white);
+}
 .main-view-container button:hover > div[class^='ButtonInner-sc-'] {
     background-color: var(--spice-button);
 }
@@ -78,8 +95,20 @@
     display: none;
 }
 
+.main-topBar-topBarContainer {
+  margin-top: 10px;
+}
+
 .main-topBar-background {
-    background-color: var(--spice-main) !important;
+  background-color: var(--mantle) !important;
+}
+.Svg-img-24-icon.home-active-icon {
+  color: var(--spice-player);
+}
+
+/* Search bar */
+.x-searchInput-searchInputInput {
+  background-color: var(--white);
 }
 
 .main-entityHeader-withBackgroundImage {
@@ -97,6 +126,23 @@
     border-radius: 4px;
 }
 
+/* Your collection, marketplace and lyrics app buttons */
+.main-navBar-navBarLink {
+  color: var(--spice-text);
+}
+
+/* Your collection svg */
+.Svg-img-24-icon.collection-icon {
+  color: var(--spice-text);
+}
+
+.main-createPlaylistButton-button {
+  color: var(--spice-text);
+}
+
+.main-navBar-navBarLinkActive {
+  background-color: var(--spice-tab-active);
+}
 /* Scrollbar */
 .os-theme-spotify > .os-scrollbar-horizontal,
 .os-theme-spotify > .os-scrollbar-vertical {
@@ -160,6 +206,25 @@
     border-radius: 6px 6px 0 0;
 }
 
+/* New artist side bar */
+
+.Button-textSubdued-sm-16-buttonTertiary-condensed-useBrowserDefaultFocusStyle {
+  color: var(--spice-text) !important;
+}
+
+/* The artist venue/date and next in queue name of artist */
+.TypeElement-mesto-type {
+  color: var(--white) !important;
+}
+
+.Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {
+  color: var(--spice-text);
+}
+
+/* Duration in album view */
+.UyzJidwrGk3awngSGIwv {
+    color: var(--white);
+}
 /* Settings */
 input:checked~.x-toggle-indicatorWrapper {
   background-color: var(---overlay1);
