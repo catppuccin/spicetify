@@ -169,6 +169,7 @@ div.context-menu {
 /* Search bar */
 .x-searchInput-searchInputInput {
   background-color: var(--surface1);
+  color: var(--text) !important;
 }
 
 .main-entityHeader-backgroundColor,
@@ -301,7 +302,7 @@ span.UyzJidwrGk3awngSGIwv, .main-tag-container, .Type__TypeElement-goli3j-0.ebHs
 
 /* The artist venue/date and next in queue name of artist */
 .TypeElement-mesto-type {
-  color: var(--white) !important;
+  color: var(--white);
 }
 
 .Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {

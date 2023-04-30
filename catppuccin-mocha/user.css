@@ -17,7 +17,7 @@
   --mantle: #181825;
   --base: #1E1E2E;
   --surface0: #313244;
-  --surface1: #45475A; 
+  --surface1: #45475A;
   --overlay0: #6C7086;
   ---overlay1: #7f849C;
   --overlay2: #9399B2;
@@ -109,6 +109,7 @@
 /* Search bar */
 .x-searchInput-searchInputInput {
   background-color: var(--white);
+  color: var(--crust) !important;
 }
 
 .main-entityHeader-withBackgroundImage {
@@ -214,7 +215,10 @@
 
 /* The artist venue/date and next in queue name of artist */
 .TypeElement-mesto-type {
-  color: var(--white) !important;
+  color: var(--white);
+}
+.artist-artistOnTour-timeAndVenue.artist-artistOnTour-condensed {
+    color: var(--white);
 }
 
 .Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {

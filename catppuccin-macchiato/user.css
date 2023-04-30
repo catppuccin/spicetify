@@ -105,6 +105,7 @@
 /* Search bar */
 .x-searchInput-searchInputInput {
   background-color: var(--white);
+  color: var(--crust) !important;
 }
 
 .main-entityHeader-backgroundColor,
@@ -221,7 +222,11 @@
 
 /* The artist venue/date and next in queue name of artist */
 .TypeElement-mesto-type {
-  color: var(--white) !important;
+  color: var(--white);
+}
+
+.artist-artistOnTour-timeAndVenue.artist-artistOnTour-condensed {
+    color: var(--white);
 }
 
 .Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {
