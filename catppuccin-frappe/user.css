@@ -353,3 +353,14 @@ span[aria-label="New Podcast Episode"] {
 .main-buddyFeed-activityMetadata .main-buddyFeed-timestamp {
     color: rgba(var(--spice-rgb-sidebar-text), 0.8);
 }
+
+/* Find friends button */
+.SQHCRmgNjRywo1Lt7rP3 {
+    background-color: var(--base);
+}
+
+.Button-sm-buttonSecondary-useBrowserDefaultFocusStyle {
+    background-color: var(--base);
+    color: var(--spice-text);
+    border: 1px solid var(---overlay1);
+}
