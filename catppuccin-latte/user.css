@@ -315,11 +315,37 @@ span.UyzJidwrGk3awngSGIwv, .main-tag-container, .Type__TypeElement-goli3j-0.ebHs
 }
 
 /* Settings */
+
+/* Search icon */
+.x-filterBox-searchIcon {
+  color: var(--text);
+}
+
+/* Search icon input field */
+.x-filterBox-filterInput {
+  color: var(--text);
+  background-color: var(--surface1);
+}
+
+/* Drop down lists */
+.main-dropDown-dropDown {
+  color: var(--spice-text);
+  background-color: var(--surface1);
+}
+
+/* Input fields for proxy */
+.x-settings-input {
+  background-color: var(--surface1);
+  color: var(--spice-text);
+}
+
 input:checked~.x-toggle-indicatorWrapper {
-  /* background-color: var(---overlay1); */
   background-color: var(--text);
 }
 
+.TypeElement-viola-textSubdued-type {
+  color: var(--text);
+}
 input:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
   background-color: var(--spice-button-active);
 }
