@@ -21,7 +21,7 @@
   --overlay0: #6C7086;
   ---overlay1: #7f849C;
   --overlay2: #9399B2;
-  --white: #cdd6f4;
+  --text: #cdd6f4;
   --lavender: #b4befe;
   --rosewater: #f5e0dc;
 }
@@ -35,11 +35,11 @@
   color: var(--spice-text);
 }
 .main-shuffleButton-button.main-shuffleButton-active {
-  color: var(--white);
+  color: var(--text);
 }
 
 .main-skipBackButton-button {
-  color: var(--white);
+  color: var(--text);
 }
 .main-sh.main-playButton-PlayButton.main-playButton-primary {
     color: var(--spice-player);
@@ -55,17 +55,17 @@
 }
 
 .main-skipForwardButton-button {
-  color: var(--white);
+  color: var(--text);
 }
 
 /* Generic control buttons */
 .Button-sm-16-buttonTertiary-iconOnly-isUsingKeyboard-useBrowserDefaultFocusStyle {
-  color: var(--white) !important;
+  color: var(--text) !important;
 }
 
 /* Connect to device etc. */
 .control-button {
-  color: var(--white);
+  color: var(--text);
 }
 .main-view-container button:hover > div[class^='ButtonInner-sc-'] {
     background-color: var(--spice-button);
@@ -108,7 +108,7 @@
 
 /* Search bar */
 .x-searchInput-searchInputInput {
-  background-color: var(--white);
+  background-color: var(--text);
   color: var(--crust) !important;
 }
 
@@ -215,10 +215,10 @@
 
 /* The artist venue/date and next in queue name of artist */
 .TypeElement-mesto-type {
-  color: var(--white);
+  color: var(--text);
 }
 .artist-artistOnTour-timeAndVenue.artist-artistOnTour-condensed {
-    color: var(--white);
+    color: var(--text);
 }
 
 .Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {
@@ -227,9 +227,32 @@
 
 /* Duration in album view */
 .UyzJidwrGk3awngSGIwv {
-    color: var(--white);
+    color: var(--text);
 }
 /* Settings */
+
+/* Search icon */
+.x-filterBox-searchIcon {
+  color: var(--text);
+}
+
+/* Search bar input */
+.x-filterBox-filterInput {
+  background-color: var(--surface0);
+  color: var(--text);
+}
+
+/* Drop down lists */
+.main-dropDown-dropDown {
+  color: var(--spice-text);
+  background-color: var(--surface0);
+}
+
+/* Settings labels */
+.TypeElement-viola-textSubdued-type {
+  color: var(--text);
+}
+
 input:checked~.x-toggle-indicatorWrapper {
   background-color: var(---overlay1);
 }

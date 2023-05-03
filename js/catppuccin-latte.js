@@ -11,6 +11,7 @@ let colorPalette = {
     teal: "#179299",
     blue: "#1e66f5",
     sky: "#04a5e5",
+    mauve: "#8839ef",
     lavender: "#7287fd",
     white: "#d9e0ee"
 }

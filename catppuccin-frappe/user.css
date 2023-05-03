@@ -16,11 +16,11 @@
   --mantle: #292c3c;
   --base: #303446;
   --surface0: #414559;
-  --surface1: #51576d; 
+  --surface1: #51576d;
   --overlay0: #737994;
   ---overlay1: #838ba7;
   --overlay2: #949cbb;
-  --white: #c6d0f5;
+  --text: #c6d0f5;
   --lavender: #babbf1;
   --rosewater: #f2d5cf;
 }
@@ -33,11 +33,11 @@
   color: var(--spice-text);
 }
 .main-shuffleButton-button.main-shuffleButton-active {
-  color: var(--white);
+  color: var(--text);
 }
 
 .main-skipBackButton-button {
-  color: var(--white);
+  color: var(--text);
 }
 .main-playButton-PlayButton.main-playButton-primary {
     color: var(--spice-player);
@@ -53,17 +53,17 @@
 }
 
 .main-skipForwardButton-button {
-  color: var(--white);
+  color: var(--text);
 }
 
 /* Generic control buttons */
 .Button-sm-16-buttonTertiary-iconOnly-isUsingKeyboard-useBrowserDefaultFocusStyle {
-  color: var(--white) !important;
+  color: var(--text) !important;
 }
 
 /* Connect to device etc. */
 .control-button {
-  color: var(--white);
+  color: var(--text);
 }
 
 .main-view-container button:hover > div[class^='ButtonInner-sc-'] {
@@ -102,7 +102,7 @@
 
 /* Search bar */
 .x-searchInput-searchInputInput {
-  background-color: var(--white);
+  background-color: var(--text);
   color: var(--crust) !important;
 }
 
@@ -220,11 +220,11 @@
 
 /* The artist venue/date and next in queue name of artist */
 .TypeElement-mesto-type {
-  color: var(--white);
+  color: var(--text);
 }
 
 .artist-artistOnTour-timeAndVenue.artist-artistOnTour-condensed {
-    color: var(--white);
+    color: var(--text);
 }
 
 .Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {
@@ -233,10 +233,28 @@
 
 /* Duration in album view */
 .UyzJidwrGk3awngSGIwv {
-    color: var(--white);
+    color: var(--text);
 }
 
 /* Settings */
+
+/* Search icon */
+.x-filterBox-searchIcon {
+  color: var(--text);
+}
+
+/* Search bar input */
+.x-filterBox-filterInput {
+  background-color: var(--surface0);
+  color: var(--text);
+}
+
+/* Drop down lists */
+.main-dropDown-dropDown {
+  color: var(--spice-text);
+  background-color: var(--surface0);
+}
+
 input:checked~.x-toggle-indicatorWrapper {
   background-color: var(---overlay1);
 }
