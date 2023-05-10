@@ -50,7 +50,7 @@
       cp -r catppuccin-* ~/.config/spicetify/Themes/
       cp js/* ~/.config/spicetify/Extensions/
       ```
-      For Windows users:
+      **For Windows users:**
       ```spicetify config-dir``` This will open the config folder for spicetify.
       You should then copy the themes from the cloned repo to the `Themes` folders as well as the contents of the `js` folder into the `Extensions` folder.
 
