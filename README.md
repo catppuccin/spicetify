@@ -51,8 +51,8 @@
       cp js/* ~/.config/spicetify/Extensions/
       ```
       For Windows users:
-      ```spicetify config-dir```
-      This will open the config folder for spicetify. Copy the `themes` to the `Themes` folders as well as the contents of the `js` folder into the `Extensions` folder.
+      ```spicetify config-dir``` This will open the config folder for spicetify.
+      You should then copy the themes from the cloned repo to the `Themes` folders as well as the contents of the `js` folder into the `Extensions` folder.
 
 4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`. Example: the `mocha` theme with `lavender` color scheme can be set as:
    ```
