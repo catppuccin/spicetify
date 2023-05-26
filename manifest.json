@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Catppuccin - Latte",
+    "description": "Catppuccin - Latte",
+    "preview": "assets/catppuccin-latte.webp",
+    "readme": "README.md",
+    "usercss": "catppuccin-latte/user.css",
+    "schemes": "catppuccin-latte/color.ini",
+    "include": [
+      "https://raw.githubusercontent.com/catppuccin/spicetify/main/js/catppuccin-latte.js"
+    ],
+    "authors": [
+      { "name": "Catppuccin Org", "url": "https://github.com/catppuccin" }
+    ]
+  },
+  {
+    "name": "Catppuccin - Frappé",
+    "description": "Catppuccin - Frappé",
+    "preview": "assets/catppuccin-frappe.webp",
+    "readme": "README.md",
+    "usercss": "catppuccin-frappe/user.css",
+    "schemes": "catppuccin-frappe/color.ini",
+    "include": [
+      "https://raw.githubusercontent.com/catppuccin/spicetify/main/js/catppuccin-frappe.js"
+    ],
+    "authors": [
+      { "name": "Catppuccin Org", "url": "https://github.com/catppuccin" }
+    ]
+  },
+  {
+    "name": "Catppuccin - Macchiato",
+    "description": "Catppuccin - Macchiato",
+    "preview": "assets/catppuccin-macchiato.webp",
+    "readme": "README.md",
+    "usercss": "catppuccin-macchiato/user.css",
+    "schemes": "catppuccin-macchiato/color.ini",
+    "include": [
+      "https://raw.githubusercontent.com/catppuccin/spicetify/main/js/catppuccin-macchiato.js"
+    ],
+    "authors": [
+      { "name": "Catppuccin Org", "url": "https://github.com/catppuccin" }
+    ]
+  },
+  {
+    "name": "Catppuccin - Mocha",
+    "description": "Catppuccin - Mocha",
+    "preview": "assets/catppuccin-mocha.webp",
+    "readme": "README.md",
+    "usercss": "catppuccin-mocha/user.css",
+    "schemes": "catppuccin-mocha/color.ini",
+    "include": [
+      "https://raw.githubusercontent.com/catppuccin/spicetify/main/js/catppuccin-mocha.js"
+    ],
+    "authors": [
+      { "name": "Catppuccin Org", "url": "https://github.com/catppuccin" }
+    ]
+  }
+]
