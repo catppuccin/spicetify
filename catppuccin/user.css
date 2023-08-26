@@ -44,6 +44,15 @@
   border-color: var(--essential-base, #000000);
 }
 
+:root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li {
+  border-radius: 6px !important;
+}
+:root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div:active::after {
+  background-color: var(--spice-highlight-elevated);
+}
+:root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div .x-entityImage-imageContainer {
+  box-shadow: none !important;
+}
 :root .Root__nav-bar .main-navBar-navBar li:hover > div,
 :root .Root__nav-bar .main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
 :root .Root__nav-bar .spicetify-playlist-list li:hover {

@@ -1,4 +1,21 @@
 :root .Root__nav-bar {
+  .main-rootlist-wrapper {
+    div:nth-child(2) {
+      > li {
+        border-radius: 6px !important;
+        
+        > div {
+          &:active::after {
+            background-color: var(--spice-highlight-elevated);
+          }
+          .x-entityImage-imageContainer {
+            box-shadow: none !important;
+          }
+        }
+      }
+    }
+  }
+
   // Nav Items
   .main-navBar-navBar li:hover > div,
   .main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
