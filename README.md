@@ -60,7 +60,8 @@
    ```
 5. To set an accent color, head over to Spotify's settings page and there will be a dropdown at the top.
 <img src="assets/accents.webp"/>
-1. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
+6. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
+
 ## 📜 License
 
 Catppuccin is released under the MIT license, which grants the following permissions:
