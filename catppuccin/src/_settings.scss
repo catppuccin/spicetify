@@ -1,0 +1,30 @@
+:root .x-settings-container {
+  .x-filterBox-searchIcon {
+    color: var(--text);
+  }
+
+  // Search bar input 
+  .x-filterBox-filterInput {
+    background-color: var(--spice-surface0);
+    color: var(--text);
+  }
+
+  // Drop down lists 
+  .main-dropDown-dropDown {
+    color: var(--spice-text);
+    background-color: var(--spice-surface0);
+  }
+
+  input:checked ~ .x-toggle-indicatorWrapper {
+    background-color: var(--spice-overlay1);
+  }
+
+  input:hover:not([disabled]):not(:active) ~ .x-toggle-indicatorWrapper {
+    background-color: var(--spice-button-active);
+  }
+
+  select option:checked {
+    color: var(--spice-text);
+    font-weight: bold;
+  }
+}

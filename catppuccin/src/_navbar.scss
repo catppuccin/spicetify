@@ -1,0 +1,35 @@
+:root .Root__nav-bar {
+  // Nav Items
+  .main-navBar-navBar li:hover > div,
+  .main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
+  .spicetify-playlist-list li:hover {
+    background-color: var(--spice-main);
+  }
+
+  #spicetify-sticky-list li:hover > div {
+    border-radius: 4px;
+  }
+
+  // Your collection, marketplace and lyrics app buttons 
+  .main-navBar-navBarLink {
+    color: var(--spice-text);
+  }
+
+  // Your collection svg 
+  .Svg-img-24-icon.collection-icon {
+    color: var(--spice-text);
+  }
+
+  .main-createPlaylistButton-button {
+    color: var(--spice-text);
+  }
+
+  .main-navBar-navBarLinkActive {
+    background-color: var(--spice-tab-active);
+  }
+
+  .main-rootlist-rootlistItemLink:link,
+  .main-rootlist-rootlistItemLink:visited {
+    z-index: 1;
+  }
+}

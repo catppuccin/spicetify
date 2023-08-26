@@ -1,0 +1,46 @@
+@forward "src/main";
+@forward "src/navbar";
+@forward "src/now_playing";
+@forward "src/right_sidebar";
+@forward "src/settings";
+@forward "src/top_bar";
+
+:root {
+  .main-trackList-playingIcon {
+    background-size: cover;
+    padding-left: 100%;
+    background-image: var(--spice-equalizer);
+  }
+
+  // Scrollbars 
+  .os-scrollbar-track,
+  ::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  .os-scrollbar-handle,
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--spice-text) !important;
+    border-radius: 6px;
+  }
+
+  // Modals 
+  .GenericModal {
+    .main-duplicateTrackModal-container {
+      div {
+        background-color: var(--spice-card);
+        color: var(--spice-subtext);
+      }
+      button {
+        &:first-child {
+          color: var(--spice-button-active);
+          &:hover {
+            color: var(--spice-notification-error);
+          }
+        }
+        &:last-child > div {
+          background-color: var(--spice-button);
+        }
+      }
+    }
+  }
+}
