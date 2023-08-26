@@ -40,6 +40,9 @@
   color: var(--spice-text);
   border: 1px solid var(--spice-overlay1);
 }
+:root .Root__main-view .Button-sm-buttonSecondary-useBrowserDefaultFocusStyle:hover {
+  border-color: var(--essential-base, #000000);
+}
 
 :root .Root__nav-bar .main-navBar-navBar li:hover > div,
 :root .Root__nav-bar .main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
@@ -169,7 +172,10 @@
 }
 :root .Root__top-bar header .x-searchInput-searchInputInput {
   background-color: var(--spice-overlay0);
-  color: var(--spice-crust) !important;
+  color: var(--spice-subtext) !important;
+}
+:root .Root__top-bar header .x-searchInput-searchInputInput::placeholder {
+  color: rgba(var(--spice-rgb-subtext), 0.3);
 }
 :root .Root__top-bar header .main-topBar-background {
   background-color: var(--spice-main) !important;

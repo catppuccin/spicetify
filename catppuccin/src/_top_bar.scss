@@ -13,7 +13,10 @@
   // Search bar 
   .x-searchInput-searchInputInput {
     background-color: var(--spice-overlay0);
-    color: var(--spice-crust) !important;
+    color: var(--spice-subtext) !important;
+    &::placeholder {
+      color: rgba(var(--spice-rgb-subtext), 0.3);
+    }
   }
 
   .main-topBar-background {

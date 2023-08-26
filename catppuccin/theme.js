@@ -55,7 +55,7 @@
                     "Type__TypeElement-sc-goli3j-0 TypeElement-viola-textSubdued-type",
                   "data-encore-id": "type",
                 },
-                "Choose accent color"
+                "Choose an accent color"
               ),
             ]
           ),

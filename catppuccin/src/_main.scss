@@ -65,5 +65,9 @@
     background-color: var(--spice-base);
     color: var(--spice-text);
     border: 1px solid var(--spice-overlay1);
+
+    &:hover {
+      border-color: var(--essential-base,#000000);
+    }
   }
 }
