@@ -11,25 +11,25 @@
     <a href="https://github.com/catppuccin/spicetify/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/spicetify?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-![Spicetify Theme Preview](preview/preview.webp)
+![Spicetify Theme Preview](assets/preview.webp)
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="preview/catppuccin-latte.webp"/>
+<img src="assets/catppuccin-latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="preview/catppuccin-frappe.webp"/>
+<img src="assets/catppuccin-frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="preview/catppuccin-macchiato.webp"/>
+<img src="assets/catppuccin-macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="preview/catppuccin-mocha.webp"/>
+<img src="assets/catppuccin-mocha.webp"/>
 </details>
 
 ## Usage
@@ -59,7 +59,7 @@
    spicetify config inject_css 1 inject_theme_js 1 replace_colors 1 overwrite_assets 1
    ```
 5. To set an accent color, head over to Spotify's settings page and there will be a dropdown at the top.
-<img src="preview/accents.webp"/>
+<img src="assets/accents.webp"/>
 1. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
 ## 📜 License
 

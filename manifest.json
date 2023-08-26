@@ -2,7 +2,7 @@
   {
     "name": "Catppuccin",
     "description": "Official Catppuccin Theme for Spotify",
-    "preview": "preview/catppuccin-latte.webp",
+    "preview": "assets/catppuccin-latte.webp",
     "readme": "README.md",
     "usercss": "catppuccin/user.css",
     "schemes": "catppuccin/color.ini",
