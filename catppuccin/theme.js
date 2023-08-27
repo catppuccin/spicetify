@@ -26,6 +26,7 @@
       
       const url = document.querySelector("body > script.marketplaceScript") ? `url('https://github.com/catppuccin/spicetify/blob/main/catppuccin/assets/${Spicetify.Config.color_scheme}/equalizer-animated-${selectedValue}.gif?raw=true')` : `url('${Spicetify.Config.color_scheme}/equalizer-animated-${selectedValue}.gif')`
       document.documentElement.style.setProperty("--spice-text", `var(--spice-${selectedValue})`);
+      document.documentElement.style.setProperty("--spice-button-active", `var(--spice-${selectedValue})`),
       document.documentElement.style.setProperty("--spice-equalizer", url);
     }, [selectedValue]);
 

@@ -53,6 +53,12 @@
 :root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div .x-entityImage-imageContainer {
   box-shadow: none !important;
 }
+:root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div p {
+  color: var(--spice-subtext) !important;
+}
+:root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div p.TypeElement-ballad-textBrightAccent-type {
+  color: var(--spice-text) !important;
+}
 :root .Root__nav-bar .main-navBar-navBar li:hover > div,
 :root .Root__nav-bar .main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
 :root .Root__nav-bar .spicetify-playlist-list li:hover {
@@ -145,8 +151,15 @@
   color: rgba(var(--spice-rgb-sidebar-text), 0.8);
 }
 
-:root .Root__top-bar header .main-topBar-topBarContainer {
-  margin-top: 10px;
+:root .Root__top-bar header button,
+:root .Root__top-bar header .main-topBar-button {
+  color: var(--spice-subtext) !important;
+}
+:root .Root__top-bar header button:hover,
+:root .Root__top-bar header .main-topBar-button:hover {
+  color: var(--spice-text) !important;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 :root .Root__top-bar header .main-topBar-background {
   background-color: var(--spice-mantle) !important;
@@ -168,6 +181,10 @@
   background-color: rgba(var(--spice-rgb-player), 0.2);
 }
 
+:root .encore-dark-theme .encore-inverted-light-set {
+  --background-highlight: var(--spice-highlight) !important;
+  --background-press: var(--spice-highlight-elevated) !important;
+}
 :root .x-filterBox-searchIcon {
   color: var(--spice-subtext);
 }

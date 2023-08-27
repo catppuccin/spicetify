@@ -1,6 +1,14 @@
 :root .Root__top-bar header {
-  .main-topBar-topBarContainer {
-    margin-top: 10px;
+  // Normalize button hover effect
+  button,
+  .main-topBar-button {
+    color: var(--spice-subtext) !important;
+    
+    &:hover {
+      color: var(--spice-text) !important;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
   }
 
   .main-topBar-background {

@@ -3,13 +3,22 @@
     div:nth-child(2) {
       > li {
         border-radius: 6px !important;
-        
+  
         > div {
           &:active::after {
             background-color: var(--spice-highlight-elevated);
           }
+  
           .x-entityImage-imageContainer {
             box-shadow: none !important;
+          }
+
+          p {
+            color: var(--spice-subtext) !important;
+  
+            &.TypeElement-ballad-textBrightAccent-type {
+              color: var(--spice-text) !important;
+            }
           }
         }
       }
