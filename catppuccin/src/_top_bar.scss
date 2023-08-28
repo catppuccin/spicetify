@@ -3,6 +3,7 @@
   button,
   .main-topBar-button {
     color: var(--spice-subtext) !important;
+    background-color: rgba(var(--spice-rgb-highlight),.7);
     
     &:hover {
       color: var(--spice-text) !important;
