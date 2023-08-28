@@ -4,19 +4,6 @@
     display: none;
   }
 
-  .main-home-content
-    > section:first-child
-    > .main-gridContainer-gridContainer
-    > div {
-    background-color: var(--spice-card);
-  }
-  .main-home-content
-    > section:first-child
-    > .main-gridContainer-gridContainer
-    > div:hover {
-    background-color: var(--spice-misc);
-  }
-
   .main-gridContainer-gridContainer > div,
   .main-gridContainer-gridContainer > div > div > div {
     border-radius: 6px;
@@ -57,7 +44,7 @@
     span[aria-label],
   span[aria-label="New episode"],
   span[aria-label="New Podcast Episode"] {
-    background: var(--spice-accent, var(--spice-text));
+    background: var(--spice-text);
   }
 
   // Enhanced button
