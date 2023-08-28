@@ -48,7 +48,7 @@
   border-radius: 6px !important;
 }
 :root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div:active::after {
-  background-color: var(--spice-highlight-elevated);
+  background-color: var(--background-tinted-base, rgba(0, 0, 0, 0.08));
 }
 :root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div .x-entityImage-imageContainer {
   box-shadow: none !important;
@@ -154,7 +154,7 @@
 :root .Root__top-bar header button,
 :root .Root__top-bar header .main-topBar-button {
   color: var(--spice-subtext) !important;
-  background-color: rgba(var(--spice-rgb-highlight), 0.7);
+  background-color: var(--spice-main-elevated) !important;
 }
 :root .Root__top-bar header button:hover,
 :root .Root__top-bar header .main-topBar-button:hover {
