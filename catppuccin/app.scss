@@ -7,8 +7,8 @@
 :root {
   // Spicetify doesnt fully support light-sets yet, so we have to manually set the colors for the light theme
   .encore-dark-theme .encore-inverted-light-set {
-    --background-highlight: var(--spice-highlight) !important;
-    --background-press: var(--spice-highlight-elevated) !important;
+    --background-highlight: var(--spice-overlay2) !important;
+    --background-press: var(--spice-subtext) !important;
   }
 
   // Inputs / Icons

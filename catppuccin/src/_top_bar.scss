@@ -1,6 +1,6 @@
 :root .Root__top-bar header {
   // Normalize button hover effect
-  button,
+  button:not(.x-searchInput-searchInputClearButton),
   .main-topBar-button {
     color: var(--spice-subtext) !important;
     background-color: var(--spice-main-elevated) !important;
