@@ -3,8 +3,8 @@
   button,
   .main-topBar-button {
     color: var(--spice-subtext) !important;
-    background-color: rgba(var(--spice-rgb-highlight),.7);
-    
+    background-color: var(--spice-main-elevated) !important;
+
     &:hover {
       color: var(--spice-text) !important;
       -webkit-transform: scale(1.1);

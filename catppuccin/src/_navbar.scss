@@ -6,7 +6,7 @@
   
         > div {
           &:active::after {
-            background-color: var(--spice-highlight-elevated);
+            background-color: var(--background-tinted-base,rgba(0,0,0,0.08));
           }
   
           .x-entityImage-imageContainer {
