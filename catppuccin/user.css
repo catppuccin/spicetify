@@ -2,12 +2,6 @@
 :root .Root__main-view .main-home-homeHeader {
   display: none;
 }
-:root .Root__main-view .main-home-content > section:first-child > .main-gridContainer-gridContainer > div {
-  background-color: var(--spice-card);
-}
-:root .Root__main-view .main-home-content > section:first-child > .main-gridContainer-gridContainer > div:hover {
-  background-color: var(--spice-misc);
-}
 :root .Root__main-view .main-gridContainer-gridContainer > div,
 :root .Root__main-view .main-gridContainer-gridContainer > div > div > div {
   border-radius: 6px;
@@ -33,7 +27,7 @@
 :root .Root__main-view .main-home-content > section:first-child > .main-gridContainer-gridContainer > div span[aria-label],
 :root .Root__main-view span[aria-label="New episode"],
 :root .Root__main-view span[aria-label="New Podcast Episode"] {
-  background: var(--spice-accent, var(--spice-text));
+  background: var(--spice-text);
 }
 :root .Root__main-view .Button-sm-buttonSecondary-useBrowserDefaultFocusStyle {
   background-color: var(--spice-base);
@@ -246,4 +240,7 @@
 }
 :root .GenericModal .main-duplicateTrackModal-container button:last-child > div {
   background-color: var(--spice-button);
+}
+:root .main-contextMenu-menuItemButton:hover, :root .main-contextMenu-menuItemButton:not([aria-checked=true]):focus {
+  color: var(--spice-subtext);
 }
