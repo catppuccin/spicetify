@@ -154,6 +154,7 @@
 :root .Root__top-bar header button,
 :root .Root__top-bar header .main-topBar-button {
   color: var(--spice-subtext) !important;
+  background-color: rgba(var(--spice-rgb-highlight), 0.7);
 }
 :root .Root__top-bar header button:hover,
 :root .Root__top-bar header .main-topBar-button:hover {
