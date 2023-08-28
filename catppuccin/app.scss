@@ -25,16 +25,23 @@
     color: var(--spice-text);
     background-color: var(--spice-surface0);
     &:disabled {
-      color: var(--spice-button-disabled)
+      color: var(--spice-button-disabled);
     }
   }
 
-  input:checked ~ .x-toggle-indicatorWrapper {
-    background-color: var(--spice-overlay1);
+  .x-toggle-indicatorWrapper {
+    background-color: var(--spice-surface0);
+    .x-toggle-indicator {
+      background-color: var(--spice-text);
+    }
+  }
+  input:checked ~ .x-toggle-indicatorWrapper,
+  input:hover:not([disabled], :active) ~ .x-toggle-indicatorWrapper {
+    background-color: var(--spice-surface1);
   }
 
-  input:hover:not([disabled]):not(:active) ~ .x-toggle-indicatorWrapper {
-    background-color: var(--spice-button-active);
+  input:checked:hover:not([disabled], :active) ~ .x-toggle-indicatorWrapper {
+    background-color: var(--spice-overlay0);
   }
 
   select option:checked {
@@ -52,7 +59,7 @@
     background-image: var(--spice-equalizer);
   }
 
-  // Scrollbars 
+  // Scrollbars
   .os-scrollbar-track,
   ::-webkit-scrollbar {
     width: 0.5em;
@@ -63,7 +70,7 @@
     border-radius: 6px;
   }
 
-  // Modals 
+  // Modals
   .GenericModal {
     .main-duplicateTrackModal-container {
       div {

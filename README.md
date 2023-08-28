@@ -57,10 +57,10 @@
    spicetify config current_theme catppuccin
    spicetify config color_scheme frappe
    spicetify config inject_css 1 inject_theme_js 1 replace_colors 1 overwrite_assets 1
+   spicetify apply
    ```
 5. To set an accent color, head over to Spotify's settings page and there will be a dropdown at the top.
 <img src="assets/accents.webp"/>
-6. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
 
 ## 📜 License
 
