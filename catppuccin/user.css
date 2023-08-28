@@ -145,12 +145,12 @@
   color: rgba(var(--spice-rgb-sidebar-text), 0.8);
 }
 
-:root .Root__top-bar header button,
+:root .Root__top-bar header button:not(.x-searchInput-searchInputClearButton),
 :root .Root__top-bar header .main-topBar-button {
   color: var(--spice-subtext) !important;
   background-color: var(--spice-main-elevated) !important;
 }
-:root .Root__top-bar header button:hover,
+:root .Root__top-bar header button:not(.x-searchInput-searchInputClearButton):hover,
 :root .Root__top-bar header .main-topBar-button:hover {
   color: var(--spice-text) !important;
   -webkit-transform: scale(1.1);
@@ -177,8 +177,8 @@
 }
 
 :root .encore-dark-theme .encore-inverted-light-set {
-  --background-highlight: var(--spice-highlight) !important;
-  --background-press: var(--spice-highlight-elevated) !important;
+  --background-highlight: var(--spice-overlay2) !important;
+  --background-press: var(--spice-subtext) !important;
 }
 :root .x-filterBox-searchIcon {
   color: var(--spice-subtext);
