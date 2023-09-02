@@ -79,7 +79,20 @@ For more convoluted language, see the [LICENSE](https://github.com/catppuccin/ca
 - [OlaoluwaM](https://github.com/OlaoluwaM)
 - [ghostx31](https://github.com/ghostx31)
 - [OhItsTom](https://github.com/ohitstom)
-  
+
+## 🌟 Community
+Unofficial Catppuccin themes for Spicetify!
+
+<details>
+<summary><a href="https://github.com/Comfy-Themes/Spicetify/tree/main/Comfy#collection">Comfy</a></summary>
+<img src="https://github.com/Comfy-Themes/Spicetify/raw/main/images/color-schemes/gif/catppuccin/mocha.gif"/>
+</details>
+
+<details>
+<summary><a href="https://github.com/Aurn1ox/dots/tree/main/.config/spicetify/Themes/Ziro">Ziro</a></summary>
+<img src="https://raw.githubusercontent.com/Aurn1ox/dots/main/assets/spotify-preview.png"/>
+</details>
+
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2022-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
 <p align="center"><a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
