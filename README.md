@@ -45,21 +45,23 @@
       ```
 2. Follow the [installation and basic usage guide](https://spicetify.app/docs/getting-started) to setup Spicetify
 
-3. Clone the repository. There are 4 flavours for this theme: `mocha`, `macchiato`, `frappe` and `latte`. All themes are present in their specific folders. Move the theme folders as well as the extensions to spicetify's config directory by running:
+3. Clone/Download the repository, and place the `catppuccin` folder (containing `user.css`, `theme.js`, `color.ini`, and `assets`) in the `Spicetify/Themes` directory:
       ```
-      cp -r catppuccin-* ~/.config/spicetify/Themes/
-      cp js/* ~/.config/spicetify/Extensions/
+      cp -r catppuccin ~/.config/spicetify/Themes/
       ```
+      **For Windows users:**
+      ```spicetify config-dir``` This will open the config folder for spicetify.
 
-4. Set theme and color scheme. Supported color schemes: `rosewater`, `flamingo`, `mauve`, `pink`, `maroon`, `red`, `peach`, `yellow`, `green`, `teal`, `blue`, `sky`, `lavender`. Example: the `mocha` theme with `lavender` color scheme can be set as:
+4. Set theme and color scheme. Supported color schemes: `frappe`, `latte`, `macchiato`, `mocha`.:
    ```
-   spicetify config current_theme catppuccin-mocha
-   spicetify config color_scheme lavender
-   spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
-   spicetify config extensions catppuccin-mocha.js
+   spicetify config current_theme catppuccin
+   spicetify config color_scheme frappe
+   spicetify config inject_css 1 inject_theme_js 1 replace_colors 1 overwrite_assets 1
+   spicetify apply
    ```
-5. If you want to update the theme without opening it up run `spicetify update`. If you want to update the theme and open/restart Spotify at the same time run `spicetify apply`
-6. When changing the theme, remember to change the JS extension to the appropriate theme flavour. Extensions can be removed by running `spicetify config extensions catppuccin-<flavour-name>.js` Example: `spicetify config extensions catppuccin-mocha.js`. Then after changing to your new theme, enable the appropriate extension by running `spicetify config extensions catppuccin-<flavour-name>.js` 
+5. To set an accent color, head over to Spotify's settings page and there will be a dropdown at the top.
+<img src="assets/accents.webp"/>
+
 ## 📜 License
 
 Catppuccin is released under the MIT license, which grants the following permissions:
@@ -76,6 +78,7 @@ For more convoluted language, see the [LICENSE](https://github.com/catppuccin/ca
 - [davidbgonz](https://github.com/davidbgonz)
 - [OlaoluwaM](https://github.com/OlaoluwaM)
 - [ghostx31](https://github.com/ghostx31)
+- [OhItsTom](https://github.com/ohitstom)
 
 ## 🌟 Community
 Unofficial Catppuccin themes for Spicetify!

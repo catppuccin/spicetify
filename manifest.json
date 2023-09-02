@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Catppuccin",
+    "description": "Official Catppuccin Theme for Spotify",
+    "preview": "assets/catppuccin-latte.webp",
+    "readme": "README.md",
+    "usercss": "catppuccin/user.css",
+    "schemes": "catppuccin/color.ini",
+    "include": [
+      "https://raw.githubusercontent.com/catppuccin/spicetify/main/catppuccin/theme.js"
+    ],
+    "authors": [
+      { "name": "Catppuccin Org", "url": "https://github.com/catppuccin" }
+    ],
+    "tags": ["official", "palette"]
+  }
+]

@@ -1,0 +1,28 @@
+:root .Root__right-sidebar {
+  // New artist side bar 
+
+  .Button-textSubdued-sm-16-buttonTertiary-condensed-useBrowserDefaultFocusStyle {
+    color: var(--spice-text) !important;
+  }
+
+  // The artist venue/date and next in queue name of artist 
+  .artist-artistOnTour-timeAndVenue.artist-artistOnTour-condensed {
+    color: var(--spice-text);
+  }
+
+  .Button-textSubdued-sm-16-buttonTertiary-condensed-isUsingKeyboard-useBrowserDefaultFocusStyle {
+    color: var(--spice-text);
+  }
+
+  //Buddy Feed theming 
+  .main-buddyFeed-activityMetadata .main-buddyFeed-username a,
+  .main-buddyFeed-activityMetadata .main-buddyFeed-usernameAndTimestamp {
+    color: rgba(var(--text), 0.2);
+  }
+
+  .main-buddyFeed-activityMetadata .main-buddyFeed-artistAndTrackName a,
+  .main-buddyFeed-activityMetadata .main-buddyFeed-playbackContextLink,
+  .main-buddyFeed-activityMetadata .main-buddyFeed-timestamp {
+    color: rgba(var(--spice-rgb-sidebar-text), 0.8);
+  }
+}

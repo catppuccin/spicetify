@@ -1,0 +1,38 @@
+:root .Root__top-bar header {
+  // Normalize button hover effect
+  button:not(.x-searchInput-searchInputClearButton),
+  .main-topBar-button {
+    color: var(--spice-subtext) !important;
+    background-color: var(--spice-main-elevated) !important;
+
+    &:hover {
+      color: var(--spice-text) !important;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+
+  .main-topBar-background {
+    background-color: var(--spice-mantle) !important;
+  }
+  .Svg-img-24-icon.home-active-icon {
+    color: var(--spice-player);
+  }
+
+  // Search bar 
+  .x-searchInput-searchInputInput {
+    background-color: var(--spice-overlay0);
+    color: var(--spice-subtext) !important;
+    &::placeholder {
+      color: rgba(var(--spice-rgb-subtext), 0.3);
+    }
+  }
+
+  .main-topBar-background {
+    background-color: var(--spice-main) !important;
+  }
+
+  .main-entityHeader-withBackgroundImage {
+    background-color: rgba(var(--spice-rgb-player), 0.2);
+  }
+}

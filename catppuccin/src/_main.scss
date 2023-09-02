@@ -1,0 +1,60 @@
+:root .Root__main-view {
+  // Home Page
+  .main-home-homeHeader {
+    display: none;
+  }
+
+  .main-gridContainer-gridContainer > div,
+  .main-gridContainer-gridContainer > div > div > div {
+    border-radius: 6px;
+  }
+  
+  .main-entityHeader-backgroundColor,
+  .main-actionBarBackground-background,
+  .main-view-container
+    main[aria-label="Spotify – Web Player"]
+    > div:first-child {
+    display: none;
+  }
+
+  // Cards
+  .main-card-card {
+    border-radius: 6px;
+  }
+
+  .main-card-imageContainer {
+    margin: -16px -16px 16px -16px;
+  }
+
+  .main-cardImage-imageWrapper,
+  .main-cardImage-image {
+    border-radius: 6px 6px 0 0;
+  }
+
+  // Duration in album view
+  .UyzJidwrGk3awngSGIwv {
+    color: var(--spice-subtext);
+  }
+
+  // For that small dot on podcasts that notify us of new episodes
+  .main-home-content
+    > section:first-child
+    > .main-gridContainer-gridContainer
+    > div
+    span[aria-label],
+  span[aria-label="New episode"],
+  span[aria-label="New Podcast Episode"] {
+    background: var(--spice-text);
+  }
+
+  // Enhanced button
+  .Button-sm-buttonSecondary-useBrowserDefaultFocusStyle {
+    background-color: var(--spice-base);
+    color: var(--spice-text);
+    border: 1px solid var(--spice-overlay1);
+
+    &:hover {
+      border-color: var(--essential-base,#000000);
+    }
+  }
+}
