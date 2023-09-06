@@ -75,10 +75,13 @@ For more convoluted language, see the [LICENSE](https://github.com/catppuccin/ca
 
 ## 💝 Thanks to
 
+Creator:
 - [davidbgonz](https://github.com/davidbgonz)
-- [OlaoluwaM](https://github.com/OlaoluwaM)
-- [ghostx31](https://github.com/ghostx31)
-- [OhItsTom](https://github.com/ohitstom)
+
+Maintainers:
+- (Style) - [OlaoluwaM](https://github.com/OlaoluwaM)
+- (Style) - [ghostx31](https://github.com/ghostx31)
+- (Style/Extension) - [OhItsTom](https://github.com/ohitstom)
 
 ## 🌟 Community
 Unofficial Catppuccin themes for Spicetify!
