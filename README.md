@@ -46,9 +46,10 @@
 
 2. Clone/Download the repository, and place the `catppuccin` folder (containing `user.css`, `theme.js`, `color.ini`, and `assets`) in the `Spicetify/Themes` directory:
       ```
+      # UNIX
       cp -r catppuccin ~/.config/spicetify/Themes/
       
-      **For Windows users:**
+      # Windows
       cp catppuccin "$(spicetify -c | Split-Path)\Themes\" -Recurse
       ```
 
