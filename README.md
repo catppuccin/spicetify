@@ -56,10 +56,12 @@
 
 3. Clone/Download the repository, and place the `catppuccin` folder (containing `user.css`, `theme.js`, `color.ini`, and `assets`) in the `Spicetify/Themes` directory:
       ```
+      # UNIX
       cp -r catppuccin ~/.config/spicetify/Themes/
+      
+      # Windows
+      cp catppuccin "$(spicetify -c | Split-Path)\Themes\" -Recurse
       ```
-      **For Windows users:**
-      ```spicetify config-dir``` This will open the config folder for spicetify.
 
 4. Set theme and color scheme. Supported color schemes: `frappe`, `latte`, `macchiato`, `mocha`.:
    ```
