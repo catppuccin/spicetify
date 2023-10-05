@@ -34,7 +34,15 @@
 
 ## Usage
 
-1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started) to setup Spicetify
+**From the Marketplace**
+
+1. If you have [Spicetify Marketplace](https://github.com/spicetify/spicetify-marketplace) installed, you can install the theme from Marketplace. 
+
+2. Navigate to Marketplace in the app, go to themes and search for Catppuccin. 
+
+**Manual installation** 
+
+1. Follow the installation instructions for [Spicetify](https://spicetify.app/docs/getting-started)
    * Note: The installation instructions for linux have you setting `/opt/spotify` and `/opt/spotify/Apps/*` permissions to `777`. This is not good practice and should be avoided. If you want, you can set the group ownership for these paths to one that your user is apart of (i.e. `users`), or you can create a new group and add it as a secondary group to your user. After that you can use the following command to give access to the group:
       ```
       GROUP=<group_name>
@@ -44,7 +52,9 @@
       sudo chmod 775 -R /opt/spotify/Apps
       ```
 
-2. Clone/Download the repository, and place the `catppuccin` folder (containing `user.css`, `theme.js`, `color.ini`, and `assets`) in the `Spicetify/Themes` directory:
+2. Follow the [installation and basic usage guide](https://spicetify.app/docs/getting-started) to setup Spicetify
+
+3. Clone/Download the repository, and place the `catppuccin` folder (containing `user.css`, `theme.js`, `color.ini`, and `assets`) in the `Spicetify/Themes` directory:
       ```
       # UNIX
       cp -r catppuccin ~/.config/spicetify/Themes/
@@ -53,15 +63,14 @@
       cp catppuccin "$(spicetify -c | Split-Path)\Themes\" -Recurse
       ```
 
-3. Set theme and color scheme. Supported color schemes: `frappe`, `latte`, `macchiato`, `mocha`.:
+4. Set theme and color scheme. Supported color schemes: `frappe`, `latte`, `macchiato`, `mocha`.:
    ```
    spicetify config current_theme catppuccin
    spicetify config color_scheme frappe
    spicetify config inject_css 1 inject_theme_js 1 replace_colors 1 overwrite_assets 1
    spicetify apply
    ```
-4. To set an accent color, head over to Spotify's settings page and there will be a dropdown at the top.
-<img src="assets/accents.webp"/>
+5. To set an accent color, head over to Spotify's settings page and select the accent colour. 
 
 ## 📜 License
 
@@ -83,19 +92,6 @@ Maintainers:
 - (Style) - [OlaoluwaM](https://github.com/OlaoluwaM)
 - (Style) - [ghostx31](https://github.com/ghostx31)
 - (Style/Extension) - [OhItsTom](https://github.com/ohitstom)
-
-## 🌟 Community
-Unofficial Catppuccin themes for Spicetify!
-
-<details>
-<summary><a href="https://github.com/Comfy-Themes/Spicetify/tree/main/Comfy#collection">Comfy</a></summary>
-<img src="https://github.com/Comfy-Themes/Spicetify/raw/main/images/color-schemes/gif/catppuccin/mocha.gif"/>
-</details>
-
-<details>
-<summary><a href="https://github.com/Aurn1ox/dots/tree/main/.config/spicetify/Themes/Ziro">Ziro</a></summary>
-<img src="https://raw.githubusercontent.com/Aurn1ox/dots/main/assets/spotify-preview.png"/>
-</details>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2022-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
