@@ -175,6 +175,9 @@
 :root .Root__top-bar header .main-entityHeader-withBackgroundImage {
   background-color: rgba(var(--spice-rgb-player), 0.2);
 }
+:root .Root__top-bar header .main-topBar-topbarContent .main-playButton-PlayButton {
+  margin-right: 8px;
+}
 
 :root .encore-dark-theme .encore-inverted-light-set {
   --background-highlight: var(--spice-overlay2) !important;
