@@ -35,4 +35,9 @@
   .main-entityHeader-withBackgroundImage {
     background-color: rgba(var(--spice-rgb-player), 0.2);
   }
+
+  // Play button
+  .main-topBar-topbarContent .main-playButton-PlayButton {
+    margin-right: 8px;
+  }
 }
