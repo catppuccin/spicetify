@@ -1,4 +1,5 @@
-:root .Root__top-bar header {
+:root .Root__top-bar header,
+:root .main-topBar-container {
   // Normalize button hover effect
   button:not(.x-searchInput-searchInputClearButton),
   .main-topBar-button {
@@ -19,7 +20,7 @@
     color: var(--spice-player);
   }
 
-  // Search bar 
+  // Search bar
   .x-searchInput-searchInputInput {
     background-color: var(--spice-overlay0);
     color: var(--spice-subtext) !important;
