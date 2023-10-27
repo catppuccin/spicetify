@@ -146,36 +146,47 @@
 }
 
 :root .Root__top-bar header button:not(.x-searchInput-searchInputClearButton),
-:root .Root__top-bar header .main-topBar-button {
+:root .Root__top-bar header .main-topBar-button,
+:root .main-topBar-container button:not(.x-searchInput-searchInputClearButton),
+:root .main-topBar-container .main-topBar-button {
   color: var(--spice-subtext) !important;
   background-color: var(--spice-main-elevated) !important;
 }
 :root .Root__top-bar header button:not(.x-searchInput-searchInputClearButton):hover,
-:root .Root__top-bar header .main-topBar-button:hover {
+:root .Root__top-bar header .main-topBar-button:hover,
+:root .main-topBar-container button:not(.x-searchInput-searchInputClearButton):hover,
+:root .main-topBar-container .main-topBar-button:hover {
   color: var(--spice-text) !important;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-:root .Root__top-bar header .main-topBar-background {
+:root .Root__top-bar header .main-topBar-background,
+:root .main-topBar-container .main-topBar-background {
   background-color: var(--spice-mantle) !important;
 }
-:root .Root__top-bar header .Svg-img-24-icon.home-active-icon {
+:root .Root__top-bar header .Svg-img-24-icon.home-active-icon,
+:root .main-topBar-container .Svg-img-24-icon.home-active-icon {
   color: var(--spice-player);
 }
-:root .Root__top-bar header .x-searchInput-searchInputInput {
+:root .Root__top-bar header .x-searchInput-searchInputInput,
+:root .main-topBar-container .x-searchInput-searchInputInput {
   background-color: var(--spice-overlay0);
   color: var(--spice-subtext) !important;
 }
-:root .Root__top-bar header .x-searchInput-searchInputInput::placeholder {
+:root .Root__top-bar header .x-searchInput-searchInputInput::placeholder,
+:root .main-topBar-container .x-searchInput-searchInputInput::placeholder {
   color: rgba(var(--spice-rgb-subtext), 0.3);
 }
-:root .Root__top-bar header .main-topBar-background {
+:root .Root__top-bar header .main-topBar-background,
+:root .main-topBar-container .main-topBar-background {
   background-color: var(--spice-main) !important;
 }
-:root .Root__top-bar header .main-entityHeader-withBackgroundImage {
+:root .Root__top-bar header .main-entityHeader-withBackgroundImage,
+:root .main-topBar-container .main-entityHeader-withBackgroundImage {
   background-color: rgba(var(--spice-rgb-player), 0.2);
 }
-:root .Root__top-bar header .main-topBar-topbarContent .main-playButton-PlayButton {
+:root .Root__top-bar header .main-topBar-topbarContent .main-playButton-PlayButton,
+:root .main-topBar-container .main-topBar-topbarContent .main-playButton-PlayButton {
   margin-right: 8px;
 }
 
