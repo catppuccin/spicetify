@@ -73,10 +73,9 @@
   // Modals
   .GenericModal {
     .main-duplicateTrackModal-container {
-      div {
-        background-color: var(--spice-card);
-        color: var(--spice-subtext);
-      }
+      background-color: var(--spice-card);
+      color: var(--spice-subtext);
+
       button {
         &:first-child {
           color: var(--spice-button-active);
@@ -92,7 +91,8 @@
   }
 
   // Context Menus
-  .main-contextMenu-menuItemButton:hover, .main-contextMenu-menuItemButton:not([aria-checked=true]):focus {
+  .main-contextMenu-menuItemButton:hover,
+  .main-contextMenu-menuItemButton:not([aria-checked="true"]):focus {
     color: var(--spice-subtext);
   }
 }
