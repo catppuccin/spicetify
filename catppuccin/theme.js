@@ -11,23 +11,34 @@
     return;
   }
 
-  // accent colors
-  const accents = ['rosewater','flamingo','pink','maroon','red','peach','yellow','green','teal','sapphire','blue','sky','mauve','lavender','white'];
+  // Accent colors
+  const accents = ['none', 'rosewater', 'flamingo', 'pink', 'maroon', 'red', 'peach', 'yellow', 'green', 'teal', 'sapphire', 'blue', 'sky', 'mauve', 'lavender'];
 
   // Create our own section matching spotifys style and structure
   const Section = Spicetify.React.memo(() => {
-    const initialValue = localStorage.getItem('catppuccin-accentColor') ?? 'rosewater';
+    const colorScheme = Spicetify.Config.color_scheme || "frappe";
+    const initialValue = localStorage.getItem('catppuccin-accentColor') ?? 'none';
     const [selectedValue, setSelectedValue] = Spicetify.React.useState(initialValue);
 
     Spicetify.React.useEffect(() => {
+      const accent = selectedValue === "none" ? "text" : selectedValue;
+      const properties = {
+        "--spice-text": `var(--spice-${selectedValue})`,
+        "--spice-button-active": `var(--spice-${selectedValue})`,
+        "--spice-equalizer": document.querySelector("body > script.marketplaceScript") ? `url('https://github.com/catppuccin/spicetify/blob/main/catppuccin/assets/${colorScheme}/equalizer-animated-${accent}.gif?raw=true')` : `url('${colorScheme}/equalizer-animated-${accent}.gif')`
+      };
+
+      Object.entries(properties).forEach(([property, value]) => {
+        if (value.includes("none")) {
+          document.documentElement.style.removeProperty(property);
+        } else {
+          document.documentElement.style.setProperty(property, value);
+        }
+      });
+    
       if (initialValue !== selectedValue) {
         localStorage.setItem("catppuccin-accentColor", selectedValue);
       }
-      
-      const url = document.querySelector("body > script.marketplaceScript") ? `url('https://github.com/catppuccin/spicetify/blob/main/catppuccin/assets/${Spicetify.Config.color_scheme}/equalizer-animated-${selectedValue}.gif?raw=true')` : `url('${Spicetify.Config.color_scheme}/equalizer-animated-${selectedValue}.gif')`
-      document.documentElement.style.setProperty("--spice-text", `var(--spice-${selectedValue})`);
-      document.documentElement.style.setProperty("--spice-button-active", `var(--spice-${selectedValue})`),
-      document.documentElement.style.setProperty("--spice-equalizer", url);
     }, [selectedValue]);
 
     return Spicetify.React.createElement(
@@ -82,7 +93,7 @@
                       {
                         key: option,
                         value: option,
-                        selected: selectedValue,
+                        selected: option === selectedValue,
                       },
                       option
                     );
