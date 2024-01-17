@@ -12,7 +12,7 @@
   }
 
   // Accent colors
-  const accents = ['none', 'rosewater','flamingo','pink','maroon','red','peach','yellow','green','teal','sapphire','blue','sky','mauve','lavender'];
+  const accents = ['none', 'rosewater', 'flamingo', 'pink', 'maroon', 'red', 'peach', 'yellow', 'green', 'teal', 'sapphire', 'blue', 'sky', 'mauve', 'lavender'];
 
   // Create our own section matching spotifys style and structure
   const Section = Spicetify.React.memo(() => {
