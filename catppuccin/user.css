@@ -233,6 +233,11 @@
   padding-left: 100%;
   background-image: var(--spice-equalizer);
 }
+:root .view-homeShortcutsGrid-equaliser {
+  background-image: var(--spice-equalizer);
+  background-size: cover;
+  padding-left: 35%;
+}
 :root .os-scrollbar-track,
 :root ::-webkit-scrollbar {
   width: 0.5em;
