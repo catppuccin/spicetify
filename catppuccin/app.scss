@@ -59,6 +59,12 @@
     background-image: var(--spice-equalizer);
   }
 
+  .view-homeShortcutsGrid-equaliser {
+    background-image: var(--spice-equalizer);
+    background-size: cover;
+    padding-left: 35%;
+  }
+
   // Scrollbars
   .os-scrollbar-track,
   ::-webkit-scrollbar {
