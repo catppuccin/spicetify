@@ -12,20 +12,42 @@
   }
 
   // Accent colors
-  const accents = ['none', 'rosewater', 'flamingo', 'pink', 'maroon', 'red', 'peach', 'yellow', 'green', 'teal', 'sapphire', 'blue', 'sky', 'mauve', 'lavender'];
+  const accents = [
+    "none",
+    "rosewater",
+    "flamingo",
+    "pink",
+    "maroon",
+    "red",
+    "peach",
+    "yellow",
+    "green",
+    "teal",
+    "sapphire",
+    "blue",
+    "sky",
+    "mauve",
+    "lavender",
+  ];
 
   // Create our own section matching spotifys style and structure
   const Section = Spicetify.React.memo(() => {
     const colorScheme = Spicetify.Config.color_scheme || "frappe";
-    const initialValue = localStorage.getItem('catppuccin-accentColor') ?? 'none';
-    const [selectedValue, setSelectedValue] = Spicetify.React.useState(initialValue);
+    const initialValue =
+      localStorage.getItem("catppuccin-accentColor") ?? "none";
+    const [selectedValue, setSelectedValue] =
+      Spicetify.React.useState(initialValue);
 
     Spicetify.React.useEffect(() => {
       const accent = selectedValue === "none" ? "text" : selectedValue;
       const properties = {
         "--spice-text": `var(--spice-${selectedValue})`,
         "--spice-button-active": `var(--spice-${selectedValue})`,
-        "--spice-equalizer": document.querySelector("body > script.marketplaceScript") ? `url('https://github.com/catppuccin/spicetify/blob/main/catppuccin/assets/${colorScheme}/equalizer-animated-${accent}.gif?raw=true')` : `url('${colorScheme}/equalizer-animated-${accent}.gif')`
+        "--spice-equalizer": document.querySelector(
+          "body > script.marketplaceScript",
+        )
+          ? `url('https://github.com/catppuccin/spicetify/blob/main/catppuccin/assets/${colorScheme}/equalizer-animated-${accent}.gif?raw=true')`
+          : `url('${colorScheme}/equalizer-animated-${accent}.gif')`,
       };
 
       Object.entries(properties).forEach(([property, value]) => {
@@ -35,7 +57,7 @@
           document.documentElement.style.setProperty(property, value);
         }
       });
-    
+
       if (initialValue !== selectedValue) {
         localStorage.setItem("catppuccin-accentColor", selectedValue);
       }
@@ -50,9 +72,9 @@
           {
             "data-encore-id": "type",
             className:
-              "Type__TypeElement-sc-goli3j-0 TypeElement-cello-textBase-type",
+              "TextElement-bodyMediumBold-textBase-text encore-text-body-medium-bold",
           },
-          "Catppuccin"
+          "Catppuccin",
         ),
         Spicetify.React.createElement("div", { className: "x-settings-row" }, [
           Spicetify.React.createElement(
@@ -64,12 +86,12 @@
                 {
                   htmlFor: "desktop.settings.selectLanguage",
                   className:
-                    "Type__TypeElement-sc-goli3j-0 TypeElement-viola-textSubdued-type",
+                    "TextElement-bodySmall-textSubdued-text encore-text-body-small",
                   "data-encore-id": "type",
                 },
-                "Choose an accent color"
+                "Choose an accent color",
               ),
-            ]
+            ],
           ),
           Spicetify.React.createElement(
             "div",
@@ -95,15 +117,15 @@
                         value: option,
                         selected: option === selectedValue,
                       },
-                      option
+                      option,
                     );
-                  })
+                  }),
                 ),
               ]),
-            ]
-          ),        
+            ],
+          ),
         ]),
-      ]
+      ],
     );
   });
 
@@ -120,7 +142,7 @@
         const sectionContainer = document.createElement("div");
         Spicetify.ReactDOM.render(
           Spicetify.React.createElement(Section),
-          sectionContainer
+          sectionContainer,
         );
         header.parentNode.insertBefore(sectionContainer, header.nextSibling);
       }
@@ -128,10 +150,14 @@
   }
 
   // Hotload useEffect
-  Spicetify.ReactDOM.render(Spicetify.React.createElement(Section),document.createElement("div"));
+  Spicetify.ReactDOM.render(
+    Spicetify.React.createElement(Section),
+    document.createElement("div"),
+  );
 
   // Initialize + Listener
   insertOption(Spicetify.Platform.History.location.pathname);
-  Spicetify.Platform.History.listen((event) => { insertOption(event.pathname) });
-
+  Spicetify.Platform.History.listen((event) => {
+    insertOption(event.pathname);
+  });
 })();
