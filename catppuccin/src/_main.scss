@@ -8,7 +8,7 @@
   .main-gridContainer-gridContainer > div > div > div {
     border-radius: 6px;
   }
-  
+
   .main-entityHeader-backgroundColor,
   .main-actionBarBackground-background,
   .main-view-container
@@ -54,7 +54,7 @@
     border: 1px solid var(--spice-overlay1);
 
     &:hover {
-      border-color: var(--essential-base,#000000);
+      border-color: var(--essential-base, #000000);
     }
   }
 }

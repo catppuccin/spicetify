@@ -44,7 +44,7 @@
         "--spice-text": `var(--spice-${selectedValue})`,
         "--spice-button-active": `var(--spice-${selectedValue})`,
         "--spice-equalizer": document.querySelector(
-          "body > script.marketplaceScript",
+          "body > script.marketplaceScript"
         )
           ? `url('https://github.com/catppuccin/spicetify/blob/main/catppuccin/assets/${colorScheme}/equalizer-animated-${accent}.gif?raw=true')`
           : `url('${colorScheme}/equalizer-animated-${accent}.gif')`,
@@ -74,7 +74,7 @@
             className:
               "TextElement-bodyMediumBold-textBase-text encore-text-body-medium-bold",
           },
-          "Catppuccin",
+          "Catppuccin"
         ),
         Spicetify.React.createElement("div", { className: "x-settings-row" }, [
           Spicetify.React.createElement(
@@ -89,9 +89,9 @@
                     "TextElement-bodySmall-textSubdued-text encore-text-body-small",
                   "data-encore-id": "type",
                 },
-                "Choose an accent color",
+                "Choose an accent color"
               ),
-            ],
+            ]
           ),
           Spicetify.React.createElement(
             "div",
@@ -117,15 +117,15 @@
                         value: option,
                         selected: option === selectedValue,
                       },
-                      option,
+                      option
                     );
-                  }),
+                  })
                 ),
               ]),
-            ],
+            ]
           ),
         ]),
-      ],
+      ]
     );
   });
 
@@ -142,7 +142,7 @@
         const sectionContainer = document.createElement("div");
         Spicetify.ReactDOM.render(
           Spicetify.React.createElement(Section),
-          sectionContainer,
+          sectionContainer
         );
         header.parentNode.insertBefore(sectionContainer, header.nextSibling);
       }
@@ -152,7 +152,7 @@
   // Hotload useEffect
   Spicetify.ReactDOM.render(
     Spicetify.React.createElement(Section),
-    document.createElement("div"),
+    document.createElement("div")
   );
 
   // Initialize + Listener
