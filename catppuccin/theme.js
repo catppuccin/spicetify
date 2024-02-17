@@ -4,7 +4,8 @@
       Spicetify.Platform &&
       Spicetify.React &&
       Spicetify.ReactDOM &&
-      Spicetify.Config
+      Spicetify.Config &&
+      Spicetify.Platform.History
     )
   ) {
     setTimeout(catppuccin, 100);
@@ -156,7 +157,7 @@
   );
 
   // Initialize + Listener
-  insertOption(Spicetify.Platform.History.location.pathname);
+  insertOption(Spicetify.Platform.History.location?.pathname);
   Spicetify.Platform.History.listen((event) => {
     insertOption(event.pathname);
   });
