@@ -1,26 +1,3 @@
-@charset "UTF-8";
-:root .Root__main-view .main-home-homeHeader {
-  display: none;
-}
-:root .Root__main-view .main-gridContainer-gridContainer > div,
-:root .Root__main-view .main-gridContainer-gridContainer > div > div > div {
-  border-radius: 6px;
-}
-:root .Root__main-view .main-entityHeader-backgroundColor,
-:root .Root__main-view .main-actionBarBackground-background,
-:root .Root__main-view .main-view-container main[aria-label="Spotify – Web Player"] > div:first-child {
-  display: none;
-}
-:root .Root__main-view .main-card-card {
-  border-radius: 6px;
-}
-:root .Root__main-view .main-card-imageContainer {
-  margin: -16px -16px 16px -16px;
-}
-:root .Root__main-view .main-cardImage-imageWrapper,
-:root .Root__main-view .main-cardImage-image {
-  border-radius: 6px 6px 0 0;
-}
 :root .Root__main-view .UyzJidwrGk3awngSGIwv {
   color: var(--spice-subtext);
 }
@@ -38,14 +15,8 @@
   border-color: var(--essential-base, #000000);
 }
 
-:root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li {
-  border-radius: 6px !important;
-}
 :root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div:active::after {
   background-color: var(--background-tinted-base, rgba(0, 0, 0, 0.08));
-}
-:root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div .x-entityImage-imageContainer {
-  box-shadow: none !important;
 }
 :root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div p {
   color: var(--spice-subtext) !important;
@@ -58,9 +29,6 @@
 :root .Root__nav-bar .spicetify-playlist-list li:hover {
   background-color: var(--spice-main);
 }
-:root .Root__nav-bar #spicetify-sticky-list li:hover > div {
-  border-radius: 4px;
-}
 :root .Root__nav-bar .main-navBar-navBarLink {
   color: var(--spice-text);
 }
@@ -72,10 +40,6 @@
 }
 :root .Root__nav-bar .main-navBar-navBarLinkActive {
   background-color: var(--spice-tab-active);
-}
-:root .Root__nav-bar .main-rootlist-rootlistItemLink:link,
-:root .Root__nav-bar .main-rootlist-rootlistItemLink:visited {
-  z-index: 1;
 }
 
 :root .Root__now-playing-bar .main-shuffleButton-button:focus:not(:focus-visible, :hover) {
@@ -118,10 +82,6 @@
 :root .Root__now-playing-bar .main-addButton-active:hover {
   color: var(--spice-red);
 }
-:root .Root__now-playing-bar .main-addButton-active:hover {
-  -webkit-transform: scale(1.06);
-  transform: scale(1.06);
-}
 :root .Root__now-playing-bar .x-progressBar-progressBarBg > div > div {
   background-color: var(--spice-text);
 }
@@ -152,14 +112,6 @@
   color: var(--spice-subtext) !important;
   background-color: var(--spice-main-elevated) !important;
 }
-:root .Root__top-bar header button:not(.x-searchInput-searchInputClearButton):hover,
-:root .Root__top-bar header .main-topBar-button:hover,
-:root .main-topBar-container button:not(.x-searchInput-searchInputClearButton):hover,
-:root .main-topBar-container .main-topBar-button:hover {
-  color: var(--spice-text) !important;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
 :root .Root__top-bar header .main-topBar-background,
 :root .main-topBar-container .main-topBar-background {
   background-color: var(--spice-mantle) !important;
@@ -184,10 +136,6 @@
 :root .Root__top-bar header .main-entityHeader-withBackgroundImage,
 :root .main-topBar-container .main-entityHeader-withBackgroundImage {
   background-color: rgba(var(--spice-rgb-player), 0.2);
-}
-:root .Root__top-bar header .main-topBar-topbarContent .main-playButton-PlayButton,
-:root .main-topBar-container .main-topBar-topbarContent .main-playButton-PlayButton {
-  margin-right: 8px;
 }
 
 :root .encore-dark-theme .encore-inverted-light-set {
