@@ -1,19 +1,11 @@
 :root .Root__nav-bar {
   .main-rootlist-wrapper {
     div:nth-child(2) {
-      > li {
-        border-radius: 6px !important;
-
-        > div {
+      >li {
+        >div {
           &:active::after {
-            background-color: var(
-              --background-tinted-base,
-              rgba(0, 0, 0, 0.08)
-            );
-          }
-
-          .x-entityImage-imageContainer {
-            box-shadow: none !important;
+            background-color: var(--background-tinted-base,
+                rgba(0, 0, 0, 0.08));
           }
 
           p {
@@ -29,14 +21,10 @@
   }
 
   // Nav Items
-  .main-navBar-navBar li:hover > div,
-  .main-navBar-navBar li:hover > a:not(.main-navBar-navBarLinkActive),
+  .main-navBar-navBar li:hover>div,
+  .main-navBar-navBar li:hover>a:not(.main-navBar-navBarLinkActive),
   .spicetify-playlist-list li:hover {
     background-color: var(--spice-main);
-  }
-
-  #spicetify-sticky-list li:hover > div {
-    border-radius: 4px;
   }
 
   // Your collection, marketplace and lyrics app buttons
@@ -55,10 +43,5 @@
 
   .main-navBar-navBarLinkActive {
     background-color: var(--spice-tab-active);
-  }
-
-  .main-rootlist-rootlistItemLink:link,
-  .main-rootlist-rootlistItemLink:visited {
-    z-index: 1;
   }
 }

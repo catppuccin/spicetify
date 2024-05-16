@@ -5,6 +5,7 @@
 @forward "src/top_bar";
 
 :root {
+
   // Spicetify doesnt fully support light-sets yet, so we have to manually set the colors for the light theme
   .encore-dark-theme .encore-inverted-light-set {
     --background-highlight: var(--spice-overlay2) !important;
@@ -24,6 +25,7 @@
   .main-dropDown-dropDown {
     color: var(--spice-text);
     background-color: var(--spice-surface0);
+
     &:disabled {
       color: var(--spice-button-disabled);
     }
@@ -31,16 +33,18 @@
 
   .x-toggle-indicatorWrapper {
     background-color: var(--spice-surface0);
+
     .x-toggle-indicator {
       background-color: var(--spice-text);
     }
   }
-  input:checked ~ .x-toggle-indicatorWrapper,
-  input:hover:not([disabled], :active) ~ .x-toggle-indicatorWrapper {
+
+  input:checked~.x-toggle-indicatorWrapper,
+  input:hover:not([disabled], :active)~.x-toggle-indicatorWrapper {
     background-color: var(--spice-surface1);
   }
 
-  input:checked:hover:not([disabled], :active) ~ .x-toggle-indicatorWrapper {
+  input:checked:hover:not([disabled], :active)~.x-toggle-indicatorWrapper {
     background-color: var(--spice-overlay0);
   }
 
@@ -70,6 +74,7 @@
   ::-webkit-scrollbar {
     width: 0.5em;
   }
+
   .os-scrollbar-handle,
   ::-webkit-scrollbar-thumb {
     background-color: var(--spice-text) !important;
@@ -85,11 +90,13 @@
       button {
         &:first-child {
           color: var(--spice-button-active);
+
           &:hover {
             color: var(--spice-notification-error);
           }
         }
-        &:last-child > div {
+
+        &:last-child>div {
           background-color: var(--spice-button);
         }
       }

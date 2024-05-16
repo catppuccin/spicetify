@@ -4,9 +4,11 @@
   .main-shuffleButton-button:focus:not(:focus-visible, :hover) {
     color: var(--spice-spice-surface1);
   }
+
   .main-shuffleButton-button:hover {
     color: var(--spice-text);
   }
+
   .main-shuffleButton-button.main-shuffleButton-active {
     color: var(--spice-text);
   }
@@ -18,6 +20,7 @@
   .main-button-primary {
     background-color: var(--spice-main);
   }
+
   .main-button-primary:active,
   .main-button-primary:focus,
   .main-button-primary:hover {
@@ -27,10 +30,11 @@
   // Generic control buttons
   .Button-sm-16-buttonTertiary-iconOnly-isUsingKeyboard-useBrowserDefaultFocusStyle,
   .control-button,
-  .main-view-container button:hover > div[class^="ButtonInner-sc-"],
+  .main-view-container button:hover>div[class^="ButtonInner-sc-"],
   .main-skipForwardButton-button,
   .main-skipBackButton-button {
     color: var(--spice-subtext) !important;
+
     &:hover {
       color: var(--spice-text) !important;
     }
@@ -43,13 +47,8 @@
     color: var(--spice-red);
   }
 
-  .main-addButton-active:hover {
-    -webkit-transform: scale(1.06);
-    transform: scale(1.06);
-  }
-
   // Progress bar
-  .x-progressBar-progressBarBg > div > div {
+  .x-progressBar-progressBarBg>div>div {
     background-color: var(--spice-text);
   }
 }
