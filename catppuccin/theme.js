@@ -135,7 +135,7 @@
     if (name !== "/preferences") return;
 
     const checkHeaderInterval = setInterval(() => {
-      const header = document.querySelector("[data-testid='settings-page'] > div:first-of-type, .x-settings-container");
+      const header = document.querySelector("[data-testid='settings-page'] > div:first-of-type, .x-settings-headerContainer");
 
       if (header) {
         clearInterval(checkHeaderInterval);
