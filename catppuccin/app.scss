@@ -15,27 +15,56 @@
   // Inputs / Icons
   .x-filterBox-searchIcon {
     color: var(--spice-subtext);
+    transition: color 0.2s ease;
   }
 
   .x-filterBox-filterInput {
     background-color: var(--spice-surface0);
     color: var(--spice-subtext);
+    transition: all 0.2s ease;
+    
+    &:focus {
+      background-color: var(--spice-surface1);
+      color: var(--spice-text);
+      outline: 2px solid var(--spice-overlay1);
+      outline-offset: 1px;
+    }
+    
+    &::placeholder {
+      color: var(--spice-overlay0);
+      transition: color 0.2s ease;
+    }
   }
 
   .main-dropDown-dropDown {
     color: var(--spice-text);
     background-color: var(--spice-surface0);
+    transition: all 0.2s ease;
+    
+    &:hover:not(:disabled) {
+      background-color: var(--spice-surface1);
+      cursor: pointer;
+    }
+    
+    &:focus {
+      outline: 2px solid var(--spice-overlay1);
+      outline-offset: 1px;
+    }
 
     &:disabled {
       color: var(--spice-button-disabled);
+      cursor: not-allowed;
+      opacity: 0.6;
     }
   }
 
   .x-toggle-indicatorWrapper {
     background-color: var(--spice-surface0);
+    transition: background-color 0.2s ease;
 
     .x-toggle-indicator {
       background-color: var(--spice-text);
+      transition: transform 0.2s ease, background-color 0.2s ease;
     }
   }
 
@@ -46,6 +75,11 @@
 
   input:checked:hover:not([disabled], :active)~.x-toggle-indicatorWrapper {
     background-color: var(--spice-overlay0);
+  }
+  
+  input:focus-visible~.x-toggle-indicatorWrapper {
+    outline: 2px solid var(--spice-overlay1);
+    outline-offset: 2px;
   }
 
   select option:checked {

@@ -17,9 +17,22 @@
     background-color: var(--spice-base);
     color: var(--spice-text);
     border: 1px solid var(--spice-overlay1);
-
+    transition: all 0.2s ease-in-out;
+    
     &:hover {
-      border-color: var(--essential-base, #000000);
+      border-color: var(--spice-text);
+      background-color: var(--spice-surface0);
+      transform: translateY(-1px);
+    }
+    
+    &:active {
+      transform: translateY(0);
+      background-color: var(--spice-surface1);
+    }
+    
+    &:focus-visible {
+      outline: 2px solid var(--spice-text);
+      outline-offset: 2px;
     }
   }
 }

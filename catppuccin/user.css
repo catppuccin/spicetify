@@ -10,9 +10,20 @@
   background-color: var(--spice-base);
   color: var(--spice-text);
   border: 1px solid var(--spice-overlay1);
+  transition: all 0.2s ease-in-out;
 }
 :root .Root__main-view .Button-sm-buttonSecondary-useBrowserDefaultFocusStyle:hover {
-  border-color: var(--essential-base, #000000);
+  border-color: var(--spice-text);
+  background-color: var(--spice-surface0);
+  transform: translateY(-1px);
+}
+:root .Root__main-view .Button-sm-buttonSecondary-useBrowserDefaultFocusStyle:active {
+  transform: translateY(0);
+  background-color: var(--spice-surface1);
+}
+:root .Root__main-view .Button-sm-buttonSecondary-useBrowserDefaultFocusStyle:focus-visible {
+  outline: 2px solid var(--spice-text);
+  outline-offset: 2px;
 }
 
 :root .Root__nav-bar .main-rootlist-wrapper div:nth-child(2) > li > div:active::after {
@@ -144,23 +155,48 @@
 }
 :root .x-filterBox-searchIcon {
   color: var(--spice-subtext);
+  transition: color 0.2s ease;
 }
 :root .x-filterBox-filterInput {
   background-color: var(--spice-surface0);
   color: var(--spice-subtext);
+  transition: all 0.2s ease;
+}
+:root .x-filterBox-filterInput:focus {
+  background-color: var(--spice-surface1);
+  color: var(--spice-text);
+  outline: 2px solid var(--spice-overlay1);
+  outline-offset: 1px;
+}
+:root .x-filterBox-filterInput::placeholder {
+  color: var(--spice-overlay0);
+  transition: color 0.2s ease;
 }
 :root .main-dropDown-dropDown {
   color: var(--spice-text);
   background-color: var(--spice-surface0);
+  transition: all 0.2s ease;
+}
+:root .main-dropDown-dropDown:hover:not(:disabled) {
+  background-color: var(--spice-surface1);
+  cursor: pointer;
+}
+:root .main-dropDown-dropDown:focus {
+  outline: 2px solid var(--spice-overlay1);
+  outline-offset: 1px;
 }
 :root .main-dropDown-dropDown:disabled {
   color: var(--spice-button-disabled);
+  cursor: not-allowed;
+  opacity: 0.6;
 }
 :root .x-toggle-indicatorWrapper {
   background-color: var(--spice-surface0);
+  transition: background-color 0.2s ease;
 }
 :root .x-toggle-indicatorWrapper .x-toggle-indicator {
   background-color: var(--spice-text);
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 :root input:checked ~ .x-toggle-indicatorWrapper,
 :root input:hover:not([disabled], :active) ~ .x-toggle-indicatorWrapper {
@@ -168,6 +204,10 @@
 }
 :root input:checked:hover:not([disabled], :active) ~ .x-toggle-indicatorWrapper {
   background-color: var(--spice-overlay0);
+}
+:root input:focus-visible ~ .x-toggle-indicatorWrapper {
+  outline: 2px solid var(--spice-overlay1);
+  outline-offset: 2px;
 }
 :root select option:checked {
   color: var(--spice-text);
